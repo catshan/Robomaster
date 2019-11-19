@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ddeec4e-4198-4f2f-af56-8a6cfd38a653" name="Default Changelist" comment="" />
+    <list default="true" id="1ddeec4e-4198-4f2f-af56-8a6cfd38a653" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +31,9 @@
   <component name="ProjectId" id="1TdqNP0WrRtEL1UyOgWdnJlHwUd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Infentry_2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp" />
   </component>
@@ -89,7 +92,12 @@
       <workItem from="1573993664976" duration="751000" />
       <workItem from="1573994425784" duration="504000" />
       <workItem from="1574051572138" duration="8412000" />
+<<<<<<< HEAD
       <workItem from="1574140868520" duration="8000" />
+=======
+      <workItem from="1574139303523" duration="1278000" />
+      <workItem from="1574140706388" duration="89000" />
+>>>>>>> dev
     </task>
     <servers />
   </component>
@@ -101,7 +109,13 @@
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< HEAD
             <State />
+=======
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+>>>>>>> dev
           </value>
         </entry>
       </map>
