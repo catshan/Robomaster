@@ -29,11 +29,11 @@ The CXX compiler identification is GNU, found in "C:/Users/Administrator/CLionPr
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_60bfd/fast 
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_60bfd.dir\build.make CMakeFiles/cmTC_60bfd.dir/build
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_7a437/fast 
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_7a437.dir\build.make CMakeFiles/cmTC_7a437.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_60bfd.dir/CMakeCCompilerABI.c.obj
-C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE   -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -v -o CMakeFiles\cmTC_60bfd.dir\CMakeCCompilerABI.c.obj   -c "E:\CLion 2019.2.1\bin\cmake\win\share\cmake-3.14\Modules\CMakeCCompilerABI.c"
+Building C object CMakeFiles/cmTC_7a437.dir/CMakeCCompilerABI.c.obj
+C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE   -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -v -o CMakeFiles\cmTC_7a437.dir\CMakeCCompilerABI.c.obj   -c "E:\CLion 2019.2.1\bin\cmake\win\share\cmake-3.14\Modules\CMakeCCompilerABI.c"
 Using built-in specs.
 Reading specs from c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -46,8 +46,8 @@ Target: arm-none-eabi
 Configured with: /tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw --libexecdir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/lib --infodir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/arm-none-eabi --with-libiconv-prefix=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-gmp=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-mpfr=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-mpc=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-isl=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-libelf=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 8-2019-q3-update' --with-multilib-list=rmprofile
 Thread model: single
 gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (GNU Tools for Arm Embedded Processors 8-2019-q3-update) 
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_60bfd.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
- c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/cc1.exe -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix c:\users\admini~1\82019-~1\bin\../lib/gcc/arm-none-eabi/8.3.1/ -isysroot c:\users\admini~1\82019-~1\bin\../arm-none-eabi -D__USES_INITFINI__ E:\CLion 2019.2.1\bin\cmake\win\share\cmake-3.14\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -march=armv7e-m+fp -auxbase-strip CMakeFiles\cmTC_60bfd.dir\CMakeCCompilerABI.c.obj -g -std=gnu99 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o C:\Users\ADMINI~1\AppData\Local\Temp\cckpiDYn.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_7a437.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
+ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/cc1.exe -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix c:\users\admini~1\82019-~1\bin\../lib/gcc/arm-none-eabi/8.3.1/ -isysroot c:\users\admini~1\82019-~1\bin\../arm-none-eabi -D__USES_INITFINI__ E:\CLion 2019.2.1\bin\cmake\win\share\cmake-3.14\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -march=armv7e-m+fp -auxbase-strip CMakeFiles\cmTC_7a437.dir\CMakeCCompilerABI.c.obj -g -std=gnu99 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o C:\Users\ADMINI~1\AppData\Local\Temp\ccmUWPGz.s
 GNU C99 (GNU Tools for Arm Embedded Processors 8-2019-q3-update) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
 	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
@@ -69,15 +69,15 @@ GNU C99 (GNU Tools for Arm Embedded Processors 8-2019-q3-update) version 8.3.1 2
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: e849902a6aacc553fd145989da8a517b
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_60bfd.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
- c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles\cmTC_60bfd.dir\CMakeCCompilerABI.c.obj C:\Users\ADMINI~1\AppData\Local\Temp\cckpiDYn.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_7a437.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
+ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles\cmTC_7a437.dir\CMakeCCompilerABI.c.obj C:\Users\ADMINI~1\AppData\Local\Temp\ccmUWPGz.s
 GNU assembler version 2.32.0 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 8-2019-q3-update) 2.32.0.20190703
 COMPILER_PATH=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/;c:/users/admini~1/82019-~1/bin/../lib/gcc/;c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/;c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;c:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/;c:/users/admini~1/82019-~1/bin/../lib/gcc/;c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/;c:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_60bfd.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
-Linking C executable cmTC_60bfd
-"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_60bfd.dir\link.txt --verbose=1
-C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -Wl,-Map=/.map -v CMakeFiles/cmTC_60bfd.dir/CMakeCCompilerABI.c.obj  -o cmTC_60bfd 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_7a437.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp'
+Linking C executable cmTC_7a437
+"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7a437.dir\link.txt --verbose=1
+C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -Wl,-Map=/.map -v CMakeFiles/cmTC_7a437.dir/CMakeCCompilerABI.c.obj  -o cmTC_7a437 
 Using built-in specs.
 Reading specs from c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -93,9 +93,9 @@ Thread model: single
 gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (GNU Tools for Arm Embedded Processors 8-2019-q3-update) 
 COMPILER_PATH=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/;c:/users/admini~1/82019-~1/bin/../lib/gcc/;c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/;c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;c:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/;c:/users/admini~1/82019-~1/bin/../lib/gcc/;c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/;c:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'cmTC_60bfd' '-march=armv7e-m+fp'
- c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/collect2.exe -plugin c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/liblto_plugin-0.dll -plugin-opt=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\ccI1KSnP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=c:\users\admini~1\82019-~1\bin\../arm-none-eabi -X -o cmTC_60bfd c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crti.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtbegin.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1 -Lc:/users/admini~1/82019-~1/bin/../lib/gcc -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib -Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib -Map=/.map CMakeFiles/cmTC_60bfd.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtend.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtn.o
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'cmTC_60bfd' '-march=armv7e-m+fp'
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'cmTC_7a437' '-march=armv7e-m+fp'
+ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/collect2.exe -plugin c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/liblto_plugin-0.dll -plugin-opt=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\cce43ZhZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=c:\users\admini~1\82019-~1\bin\../arm-none-eabi -X -o cmTC_7a437 c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crti.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtbegin.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1 -Lc:/users/admini~1/82019-~1/bin/../lib/gcc -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib -Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib -Map=/.map CMakeFiles/cmTC_7a437.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtend.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtn.o
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'cmTC_7a437' '-march=armv7e-m+fp'
 mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -118,11 +118,11 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_60bfd/fast ]
-  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_60bfd.dir\build.make CMakeFiles/cmTC_60bfd.dir/build]
+  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_7a437/fast ]
+  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_7a437.dir\build.make CMakeFiles/cmTC_7a437.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_60bfd.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE   -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -v -o CMakeFiles\cmTC_60bfd.dir\CMakeCCompilerABI.c.obj   -c "E:\CLion 2019.2.1\bin\cmake\win\share\cmake-3.14\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Building C object CMakeFiles/cmTC_7a437.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE   -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -v -o CMakeFiles\cmTC_7a437.dir\CMakeCCompilerABI.c.obj   -c "E:\CLion 2019.2.1\bin\cmake\win\share\cmake-3.14\Modules\CMakeCCompilerABI.c"]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -135,8 +135,8 @@ Parsed C implicit link information from above output:
   ignore line: [Configured with: /tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw --libexecdir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/lib --infodir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/arm-none-eabi --with-libiconv-prefix=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-gmp=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-mpfr=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-mpc=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-isl=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-libelf=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 8-2019-q3-update' --with-multilib-list=rmprofile]
   ignore line: [Thread model: single]
   ignore line: [gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (GNU Tools for Arm Embedded Processors 8-2019-q3-update) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_60bfd.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
-  ignore line: [ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/cc1.exe -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix c:\users\admini~1\82019-~1\bin\../lib/gcc/arm-none-eabi/8.3.1/ -isysroot c:\users\admini~1\82019-~1\bin\../arm-none-eabi -D__USES_INITFINI__ E:\CLion 2019.2.1\bin\cmake\win\share\cmake-3.14\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -march=armv7e-m+fp -auxbase-strip CMakeFiles\cmTC_60bfd.dir\CMakeCCompilerABI.c.obj -g -std=gnu99 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o C:\Users\ADMINI~1\AppData\Local\Temp\cckpiDYn.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_7a437.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
+  ignore line: [ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/cc1.exe -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix c:\users\admini~1\82019-~1\bin\../lib/gcc/arm-none-eabi/8.3.1/ -isysroot c:\users\admini~1\82019-~1\bin\../arm-none-eabi -D__USES_INITFINI__ E:\CLion 2019.2.1\bin\cmake\win\share\cmake-3.14\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -march=armv7e-m+fp -auxbase-strip CMakeFiles\cmTC_7a437.dir\CMakeCCompilerABI.c.obj -g -std=gnu99 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o C:\Users\ADMINI~1\AppData\Local\Temp\ccmUWPGz.s]
   ignore line: [GNU C99 (GNU Tools for Arm Embedded Processors 8-2019-q3-update) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP]
   ignore line: []
@@ -158,8 +158,8 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: e849902a6aacc553fd145989da8a517b]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_60bfd.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
-  ignore line: [ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles\cmTC_60bfd.dir\CMakeCCompilerABI.c.obj C:\Users\ADMINI~1\AppData\Local\Temp\cckpiDYn.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_7a437.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
+  ignore line: [ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles\cmTC_7a437.dir\CMakeCCompilerABI.c.obj C:\Users\ADMINI~1\AppData\Local\Temp\ccmUWPGz.s]
   ignore line: [GNU assembler version 2.32.0 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 8-2019-q3-update) 2.32.0.20190703]
   ignore line: [COMPILER_PATH=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/]
   ignore line: [c:/users/admini~1/82019-~1/bin/../lib/gcc/]
@@ -171,10 +171,10 @@ Parsed C implicit link information from above output:
   ignore line: [c:/users/admini~1/82019-~1/bin/../lib/gcc/]
   ignore line: [c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [c:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_60bfd.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
-  ignore line: [Linking C executable cmTC_60bfd]
-  ignore line: ["E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_60bfd.dir\link.txt --verbose=1]
-  ignore line: [C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -Wl,-Map=/.map -v CMakeFiles/cmTC_60bfd.dir/CMakeCCompilerABI.c.obj  -o cmTC_60bfd ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_7a437.dir\CMakeCCompilerABI.c.obj' '-c' '-march=armv7e-m+fp']
+  ignore line: [Linking C executable cmTC_7a437]
+  ignore line: ["E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7a437.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -Wl,-Map=/.map -v CMakeFiles/cmTC_7a437.dir/CMakeCCompilerABI.c.obj  -o cmTC_7a437 ]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -198,13 +198,13 @@ Parsed C implicit link information from above output:
   ignore line: [c:/users/admini~1/82019-~1/bin/../lib/gcc/]
   ignore line: [c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [c:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'cmTC_60bfd' '-march=armv7e-m+fp']
-  link line: [ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/collect2.exe -plugin c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/liblto_plugin-0.dll -plugin-opt=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\ccI1KSnP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=c:\users\admini~1\82019-~1\bin\../arm-none-eabi -X -o cmTC_60bfd c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crti.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtbegin.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1 -Lc:/users/admini~1/82019-~1/bin/../lib/gcc -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib -Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib -Map=/.map CMakeFiles/cmTC_60bfd.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtend.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'cmTC_7a437' '-march=armv7e-m+fp']
+  link line: [ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/collect2.exe -plugin c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/liblto_plugin-0.dll -plugin-opt=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\cce43ZhZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=c:\users\admini~1\82019-~1\bin\../arm-none-eabi -X -o cmTC_7a437 c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crti.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtbegin.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1 -Lc:/users/admini~1/82019-~1/bin/../lib/gcc -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib -Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib -Map=/.map CMakeFiles/cmTC_7a437.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtend.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtn.o]
     arg [c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\ccI1KSnP.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\cce43ZhZ.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lg_nano] ==> ignore
     arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
@@ -217,7 +217,7 @@ Parsed C implicit link information from above output:
     arg [--sysroot=c:\users\admini~1\82019-~1\bin\../arm-none-eabi] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_60bfd] ==> ignore
+    arg [cmTC_7a437] ==> ignore
     arg [c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crti.o] ==> ignore
     arg [c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtbegin.o] ==> ignore
     arg [c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o] ==> ignore
@@ -229,7 +229,7 @@ Parsed C implicit link information from above output:
     arg [-Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib] ==> dir [c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib]
     arg [-Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib] ==> dir [c:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib]
     arg [-Map=/.map] ==> ignore
-    arg [CMakeFiles/cmTC_60bfd.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_7a437.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [--start-group] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lg_nano] ==> lib [g_nano]
@@ -264,14 +264,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_92e4d/fast 
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_92e4d.dir\build.make CMakeFiles/cmTC_92e4d.dir/build
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_bd163/fast 
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_bd163.dir\build.make CMakeFiles/cmTC_bd163.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_92e4d.dir/feature_tests.c.obj
-C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE   -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -std=c11 -o CMakeFiles\cmTC_92e4d.dir\feature_tests.c.obj   -c C:\Users\Administrator\CLionProjects\RoboFramework_Total\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_92e4d
-"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_92e4d.dir\link.txt --verbose=1
-C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -Wl,-Map=/.map  CMakeFiles/cmTC_92e4d.dir/feature_tests.c.obj  -o cmTC_92e4d 
+Building C object CMakeFiles/cmTC_bd163.dir/feature_tests.c.obj
+C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE   -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -std=c11 -o CMakeFiles\cmTC_bd163.dir\feature_tests.c.obj   -c C:\Users\Administrator\CLionProjects\RoboFramework_Total\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_bd163
+"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bd163.dir\link.txt --verbose=1
+C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -Wl,-Map=/.map  CMakeFiles/cmTC_bd163.dir/feature_tests.c.obj  -o cmTC_bd163 
 mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -284,14 +284,14 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/Rob
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_fc7f3/fast 
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_fc7f3.dir\build.make CMakeFiles/cmTC_fc7f3.dir/build
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_0d5b0/fast 
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_0d5b0.dir\build.make CMakeFiles/cmTC_0d5b0.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fc7f3.dir/feature_tests.c.obj
-C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE   -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -std=c99 -o CMakeFiles\cmTC_fc7f3.dir\feature_tests.c.obj   -c C:\Users\Administrator\CLionProjects\RoboFramework_Total\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_fc7f3
-"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_fc7f3.dir\link.txt --verbose=1
-C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -Wl,-Map=/.map  CMakeFiles/cmTC_fc7f3.dir/feature_tests.c.obj  -o cmTC_fc7f3 
+Building C object CMakeFiles/cmTC_0d5b0.dir/feature_tests.c.obj
+C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE   -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -std=c99 -o CMakeFiles\cmTC_0d5b0.dir\feature_tests.c.obj   -c C:\Users\Administrator\CLionProjects\RoboFramework_Total\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_0d5b0
+"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0d5b0.dir\link.txt --verbose=1
+C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -Wl,-Map=/.map  CMakeFiles/cmTC_0d5b0.dir/feature_tests.c.obj  -o cmTC_0d5b0 
 mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -304,14 +304,14 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/Rob
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_87ffc/fast 
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_87ffc.dir\build.make CMakeFiles/cmTC_87ffc.dir/build
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_03f6f/fast 
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_03f6f.dir\build.make CMakeFiles/cmTC_03f6f.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_87ffc.dir/feature_tests.c.obj
-C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE   -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -std=c90 -o CMakeFiles\cmTC_87ffc.dir\feature_tests.c.obj   -c C:\Users\Administrator\CLionProjects\RoboFramework_Total\cmake-build-debug\CMakeFiles\feature_tests.c
-Linking C executable cmTC_87ffc
-"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_87ffc.dir\link.txt --verbose=1
-C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -Wl,-Map=/.map  CMakeFiles/cmTC_87ffc.dir/feature_tests.c.obj  -o cmTC_87ffc 
+Building C object CMakeFiles/cmTC_03f6f.dir/feature_tests.c.obj
+C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE   -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -std=c90 -o CMakeFiles\cmTC_03f6f.dir\feature_tests.c.obj   -c C:\Users\Administrator\CLionProjects\RoboFramework_Total\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_03f6f
+"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_03f6f.dir\link.txt --verbose=1
+C:\Users\ADMINI~1\82019-~1\bin\AR19DD~1.EXE -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -Wl,-Map=/.map  CMakeFiles/cmTC_03f6f.dir/feature_tests.c.obj  -o cmTC_03f6f 
 mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -322,11 +322,11 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/Rob
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_b791a/fast 
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b791a.dir\build.make CMakeFiles/cmTC_b791a.dir/build
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_a78b0/fast 
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_a78b0.dir\build.make CMakeFiles/cmTC_a78b0.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b791a.dir/CMakeCXXCompilerABI.cpp.obj
-C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -v -std=gnu++11 -o CMakeFiles\cmTC_b791a.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\CLion 2019.2.1\bin\cmake\win\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp"
+Building CXX object CMakeFiles/cmTC_a78b0.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -v -std=gnu++11 -o CMakeFiles\cmTC_a78b0.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\CLion 2019.2.1\bin\cmake\win\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp"
 Using built-in specs.
 Reading specs from c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -339,8 +339,8 @@ Target: arm-none-eabi
 Configured with: /tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw --libexecdir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/lib --infodir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/arm-none-eabi --with-libiconv-prefix=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-gmp=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-mpfr=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-mpc=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-isl=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-libelf=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 8-2019-q3-update' --with-multilib-list=rmprofile
 Thread model: single
 gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (GNU Tools for Arm Embedded Processors 8-2019-q3-update) 
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-std=gnu++11' '-o' 'CMakeFiles\cmTC_b791a.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp'
- c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/cc1plus.exe -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix c:\users\admini~1\82019-~1\bin\../lib/gcc/arm-none-eabi/8.3.1/ -isysroot c:\users\admini~1\82019-~1\bin\../arm-none-eabi -D__USES_INITFINI__ E:\CLion 2019.2.1\bin\cmake\win\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -march=armv7e-m+fp -auxbase-strip CMakeFiles\cmTC_b791a.dir\CMakeCXXCompilerABI.cpp.obj -g -std=c++11 -std=gnu++11 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o C:\Users\ADMINI~1\AppData\Local\Temp\ccNWpzGv.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-std=gnu++11' '-o' 'CMakeFiles\cmTC_a78b0.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp'
+ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/cc1plus.exe -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix c:\users\admini~1\82019-~1\bin\../lib/gcc/arm-none-eabi/8.3.1/ -isysroot c:\users\admini~1\82019-~1\bin\../arm-none-eabi -D__USES_INITFINI__ E:\CLion 2019.2.1\bin\cmake\win\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -march=armv7e-m+fp -auxbase-strip CMakeFiles\cmTC_a78b0.dir\CMakeCXXCompilerABI.cpp.obj -g -std=c++11 -std=gnu++11 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o C:\Users\ADMINI~1\AppData\Local\Temp\cc95afTS.s
 GNU C++11 (GNU Tools for Arm Embedded Processors 8-2019-q3-update) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
 	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
@@ -368,15 +368,15 @@ GNU C++11 (GNU Tools for Arm Embedded Processors 8-2019-q3-update) version 8.3.1
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 69ee3c4857777a212907aac1b1ed675c
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-std=gnu++11' '-o' 'CMakeFiles\cmTC_b791a.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp'
- c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles\cmTC_b791a.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\ADMINI~1\AppData\Local\Temp\ccNWpzGv.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-std=gnu++11' '-o' 'CMakeFiles\cmTC_a78b0.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp'
+ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles\cmTC_a78b0.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\ADMINI~1\AppData\Local\Temp\cc95afTS.s
 GNU assembler version 2.32.0 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 8-2019-q3-update) 2.32.0.20190703
 COMPILER_PATH=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/;c:/users/admini~1/82019-~1/bin/../lib/gcc/;c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/;c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;c:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/;c:/users/admini~1/82019-~1/bin/../lib/gcc/;c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/;c:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-std=gnu++11' '-o' 'CMakeFiles\cmTC_b791a.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp'
-Linking CXX executable cmTC_b791a
-"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b791a.dir\link.txt --verbose=1
-C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -Wl,-Map=/.map -v CMakeFiles/cmTC_b791a.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_b791a 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-std=gnu++11' '-o' 'CMakeFiles\cmTC_a78b0.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp'
+Linking CXX executable cmTC_a78b0
+"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a78b0.dir\link.txt --verbose=1
+C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -Wl,-Map=/.map -v CMakeFiles/cmTC_a78b0.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_a78b0 
 Using built-in specs.
 Reading specs from c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -392,9 +392,9 @@ Thread model: single
 gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (GNU Tools for Arm Embedded Processors 8-2019-q3-update) 
 COMPILER_PATH=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/;c:/users/admini~1/82019-~1/bin/../lib/gcc/;c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/;c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;c:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard/;c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/;c:/users/admini~1/82019-~1/bin/../lib/gcc/;c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/;c:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'cmTC_b791a' '-march=armv7e-m+fp'
- c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/collect2.exe -plugin c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/liblto_plugin-0.dll -plugin-opt=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\cc9PGmTW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=c:\users\admini~1\82019-~1\bin\../arm-none-eabi -X -o cmTC_b791a c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crti.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtbegin.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1 -Lc:/users/admini~1/82019-~1/bin/../lib/gcc -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib -Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib -Map=/.map CMakeFiles/cmTC_b791a.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++_nano -lm --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtend.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtn.o
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'cmTC_b791a' '-march=armv7e-m+fp'
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'cmTC_a78b0' '-march=armv7e-m+fp'
+ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/collect2.exe -plugin c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/liblto_plugin-0.dll -plugin-opt=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\ccdiXsLg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=c:\users\admini~1\82019-~1\bin\../arm-none-eabi -X -o cmTC_a78b0 c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crti.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtbegin.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1 -Lc:/users/admini~1/82019-~1/bin/../lib/gcc -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib -Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib -Map=/.map CMakeFiles/cmTC_a78b0.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++_nano -lm --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtend.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtn.o
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'cmTC_a78b0' '-march=armv7e-m+fp'
 mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -423,11 +423,11 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_b791a/fast ]
-  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b791a.dir\build.make CMakeFiles/cmTC_b791a.dir/build]
+  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_a78b0/fast ]
+  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_a78b0.dir\build.make CMakeFiles/cmTC_a78b0.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b791a.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -v -std=gnu++11 -o CMakeFiles\cmTC_b791a.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\CLion 2019.2.1\bin\cmake\win\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Building CXX object CMakeFiles/cmTC_a78b0.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -v -std=gnu++11 -o CMakeFiles\cmTC_a78b0.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\CLion 2019.2.1\bin\cmake\win\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp"]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -440,8 +440,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Configured with: /tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw --libexecdir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/lib --infodir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/arm-none-eabi --with-libiconv-prefix=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-gmp=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-mpfr=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-mpc=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-isl=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-libelf=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 8-2019-q3-update' --with-multilib-list=rmprofile]
   ignore line: [Thread model: single]
   ignore line: [gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (GNU Tools for Arm Embedded Processors 8-2019-q3-update) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-std=gnu++11' '-o' 'CMakeFiles\cmTC_b791a.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp']
-  ignore line: [ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/cc1plus.exe -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix c:\users\admini~1\82019-~1\bin\../lib/gcc/arm-none-eabi/8.3.1/ -isysroot c:\users\admini~1\82019-~1\bin\../arm-none-eabi -D__USES_INITFINI__ E:\CLion 2019.2.1\bin\cmake\win\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -march=armv7e-m+fp -auxbase-strip CMakeFiles\cmTC_b791a.dir\CMakeCXXCompilerABI.cpp.obj -g -std=c++11 -std=gnu++11 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o C:\Users\ADMINI~1\AppData\Local\Temp\ccNWpzGv.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-std=gnu++11' '-o' 'CMakeFiles\cmTC_a78b0.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp']
+  ignore line: [ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/cc1plus.exe -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v7e-m+fp/hard -iprefix c:\users\admini~1\82019-~1\bin\../lib/gcc/arm-none-eabi/8.3.1/ -isysroot c:\users\admini~1\82019-~1\bin\../arm-none-eabi -D__USES_INITFINI__ E:\CLion 2019.2.1\bin\cmake\win\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -march=armv7e-m+fp -auxbase-strip CMakeFiles\cmTC_a78b0.dir\CMakeCXXCompilerABI.cpp.obj -g -std=c++11 -std=gnu++11 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o C:\Users\ADMINI~1\AppData\Local\Temp\cc95afTS.s]
   ignore line: [GNU C++11 (GNU Tools for Arm Embedded Processors 8-2019-q3-update) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP]
   ignore line: []
@@ -469,8 +469,8 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 69ee3c4857777a212907aac1b1ed675c]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-std=gnu++11' '-o' 'CMakeFiles\cmTC_b791a.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp']
-  ignore line: [ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles\cmTC_b791a.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\ADMINI~1\AppData\Local\Temp\ccNWpzGv.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-std=gnu++11' '-o' 'CMakeFiles\cmTC_a78b0.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp']
+  ignore line: [ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv7e-m -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -meabi=5 -o CMakeFiles\cmTC_a78b0.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\ADMINI~1\AppData\Local\Temp\cc95afTS.s]
   ignore line: [GNU assembler version 2.32.0 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 8-2019-q3-update) 2.32.0.20190703]
   ignore line: [COMPILER_PATH=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/]
   ignore line: [c:/users/admini~1/82019-~1/bin/../lib/gcc/]
@@ -482,10 +482,10 @@ Parsed CXX implicit link information from above output:
   ignore line: [c:/users/admini~1/82019-~1/bin/../lib/gcc/]
   ignore line: [c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [c:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-std=gnu++11' '-o' 'CMakeFiles\cmTC_b791a.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp']
-  ignore line: [Linking CXX executable cmTC_b791a]
-  ignore line: ["E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b791a.dir\link.txt --verbose=1]
-  ignore line: [C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -Wl,-Map=/.map -v CMakeFiles/cmTC_b791a.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_b791a ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-std=gnu++11' '-o' 'CMakeFiles\cmTC_a78b0.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-march=armv7e-m+fp']
+  ignore line: [Linking CXX executable cmTC_a78b0]
+  ignore line: ["E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a78b0.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -Wl,-Map=/.map -v CMakeFiles/cmTC_a78b0.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_a78b0 ]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -509,13 +509,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [c:/users/admini~1/82019-~1/bin/../lib/gcc/]
   ignore line: [c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [c:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'cmTC_b791a' '-march=armv7e-m+fp']
-  link line: [ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/collect2.exe -plugin c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/liblto_plugin-0.dll -plugin-opt=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\cc9PGmTW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=c:\users\admini~1\82019-~1\bin\../arm-none-eabi -X -o cmTC_b791a c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crti.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtbegin.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1 -Lc:/users/admini~1/82019-~1/bin/../lib/gcc -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib -Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib -Map=/.map CMakeFiles/cmTC_b791a.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++_nano -lm --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtend.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'cmTC_a78b0' '-march=armv7e-m+fp']
+  link line: [ c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/collect2.exe -plugin c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/liblto_plugin-0.dll -plugin-opt=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\ccdiXsLg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=c:\users\admini~1\82019-~1\bin\../arm-none-eabi -X -o cmTC_a78b0 c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crti.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtbegin.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib/thumb/v7e-m+fp/hard -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1 -Lc:/users/admini~1/82019-~1/bin/../lib/gcc -Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib -Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib -Map=/.map CMakeFiles/cmTC_a78b0.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++_nano -lm --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtend.o c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtn.o]
     arg [c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\cc9PGmTW.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\ccdiXsLg.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lg_nano] ==> ignore
     arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
@@ -528,7 +528,7 @@ Parsed CXX implicit link information from above output:
     arg [--sysroot=c:\users\admini~1\82019-~1\bin\../arm-none-eabi] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b791a] ==> ignore
+    arg [cmTC_a78b0] ==> ignore
     arg [c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crti.o] ==> ignore
     arg [c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7e-m+fp/hard/crtbegin.o] ==> ignore
     arg [c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o] ==> ignore
@@ -540,7 +540,7 @@ Parsed CXX implicit link information from above output:
     arg [-Lc:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib] ==> dir [c:/users/admini~1/82019-~1/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib]
     arg [-Lc:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib] ==> dir [c:/users/admini~1/82019-~1/bin/../arm-none-eabi/lib]
     arg [-Map=/.map] ==> ignore
-    arg [CMakeFiles/cmTC_b791a.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_a78b0.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lstdc++_nano] ==> lib [stdc++_nano]
     arg [-lm] ==> lib [m]
     arg [--start-group] ==> ignore
@@ -577,14 +577,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
 Change Dir: C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_d18f6/fast 
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d18f6.dir\build.make CMakeFiles/cmTC_d18f6.dir/build
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_5e6cc/fast 
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_5e6cc.dir\build.make CMakeFiles/cmTC_5e6cc.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d18f6.dir/feature_tests.cxx.obj
-C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++2a -std=gnu++11 -o CMakeFiles\cmTC_d18f6.dir\feature_tests.cxx.obj -c C:\Users\Administrator\CLionProjects\RoboFramework_Total\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_d18f6
-"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d18f6.dir\link.txt --verbose=1
-C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -Wl,-Map=/.map  CMakeFiles/cmTC_d18f6.dir/feature_tests.cxx.obj  -o cmTC_d18f6 
+Building CXX object CMakeFiles/cmTC_5e6cc.dir/feature_tests.cxx.obj
+C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++2a -std=gnu++11 -o CMakeFiles\cmTC_5e6cc.dir\feature_tests.cxx.obj -c C:\Users\Administrator\CLionProjects\RoboFramework_Total\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_5e6cc
+"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5e6cc.dir\link.txt --verbose=1
+C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -Wl,-Map=/.map  CMakeFiles/cmTC_5e6cc.dir/feature_tests.cxx.obj  -o cmTC_5e6cc 
 mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -650,14 +650,14 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/Rob
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
 Change Dir: C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_55fad/fast 
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_55fad.dir\build.make CMakeFiles/cmTC_55fad.dir/build
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_a39e7/fast 
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_a39e7.dir\build.make CMakeFiles/cmTC_a39e7.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_55fad.dir/feature_tests.cxx.obj
-C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++17 -std=gnu++11 -o CMakeFiles\cmTC_55fad.dir\feature_tests.cxx.obj -c C:\Users\Administrator\CLionProjects\RoboFramework_Total\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_55fad
-"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_55fad.dir\link.txt --verbose=1
-C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -Wl,-Map=/.map  CMakeFiles/cmTC_55fad.dir/feature_tests.cxx.obj  -o cmTC_55fad 
+Building CXX object CMakeFiles/cmTC_a39e7.dir/feature_tests.cxx.obj
+C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++17 -std=gnu++11 -o CMakeFiles\cmTC_a39e7.dir\feature_tests.cxx.obj -c C:\Users\Administrator\CLionProjects\RoboFramework_Total\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_a39e7
+"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a39e7.dir\link.txt --verbose=1
+C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -Wl,-Map=/.map  CMakeFiles/cmTC_a39e7.dir/feature_tests.cxx.obj  -o cmTC_a39e7 
 mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -723,14 +723,14 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/Rob
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_003e6/fast 
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_003e6.dir\build.make CMakeFiles/cmTC_003e6.dir/build
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_19388/fast 
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_19388.dir\build.make CMakeFiles/cmTC_19388.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_003e6.dir/feature_tests.cxx.obj
-C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++14 -std=gnu++11 -o CMakeFiles\cmTC_003e6.dir\feature_tests.cxx.obj -c C:\Users\Administrator\CLionProjects\RoboFramework_Total\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_003e6
-"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_003e6.dir\link.txt --verbose=1
-C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -Wl,-Map=/.map  CMakeFiles/cmTC_003e6.dir/feature_tests.cxx.obj  -o cmTC_003e6 
+Building CXX object CMakeFiles/cmTC_19388.dir/feature_tests.cxx.obj
+C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++14 -std=gnu++11 -o CMakeFiles\cmTC_19388.dir\feature_tests.cxx.obj -c C:\Users\Administrator\CLionProjects\RoboFramework_Total\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_19388
+"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_19388.dir\link.txt --verbose=1
+C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -Wl,-Map=/.map  CMakeFiles/cmTC_19388.dir/feature_tests.cxx.obj  -o cmTC_19388 
 mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -796,14 +796,14 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/Rob
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_d1bcf/fast 
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d1bcf.dir\build.make CMakeFiles/cmTC_d1bcf.dir/build
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_07923/fast 
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_07923.dir\build.make CMakeFiles/cmTC_07923.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d1bcf.dir/feature_tests.cxx.obj
-C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++11 -std=gnu++11 -o CMakeFiles\cmTC_d1bcf.dir\feature_tests.cxx.obj -c C:\Users\Administrator\CLionProjects\RoboFramework_Total\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_d1bcf
-"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d1bcf.dir\link.txt --verbose=1
-C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -Wl,-Map=/.map  CMakeFiles/cmTC_d1bcf.dir/feature_tests.cxx.obj  -o cmTC_d1bcf 
+Building CXX object CMakeFiles/cmTC_07923.dir/feature_tests.cxx.obj
+C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++11 -std=gnu++11 -o CMakeFiles\cmTC_07923.dir\feature_tests.cxx.obj -c C:\Users\Administrator\CLionProjects\RoboFramework_Total\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_07923
+"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_07923.dir\link.txt --verbose=1
+C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -Wl,-Map=/.map  CMakeFiles/cmTC_07923.dir/feature_tests.cxx.obj  -o cmTC_07923 
 mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
@@ -869,14 +869,14 @@ mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/Rob
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_820e4/fast 
-C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_820e4.dir\build.make CMakeFiles/cmTC_820e4.dir/build
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_cebfc/fast 
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_cebfc.dir\build.make CMakeFiles/cmTC_cebfc.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_820e4.dir/feature_tests.cxx.obj
-C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++98 -std=gnu++11 -o CMakeFiles\cmTC_820e4.dir\feature_tests.cxx.obj -c C:\Users\Administrator\CLionProjects\RoboFramework_Total\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_820e4
-"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_820e4.dir\link.txt --verbose=1
-C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -Wl,-Map=/.map  CMakeFiles/cmTC_820e4.dir/feature_tests.cxx.obj  -o cmTC_820e4 
+Building CXX object CMakeFiles/cmTC_cebfc.dir/feature_tests.cxx.obj
+C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE    -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -std=c++98 -std=gnu++11 -o CMakeFiles\cmTC_cebfc.dir\feature_tests.cxx.obj -c C:\Users\Administrator\CLionProjects\RoboFramework_Total\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_cebfc
+"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_cebfc.dir\link.txt --verbose=1
+C:\Users\ADMINI~1\82019-~1\bin\AR10B2~1.EXE  -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -Wl,-Map=/.map  CMakeFiles/cmTC_cebfc.dir/feature_tests.cxx.obj  -o cmTC_cebfc 
 mingw32-make.exe[1]: Leaving directory 'C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 

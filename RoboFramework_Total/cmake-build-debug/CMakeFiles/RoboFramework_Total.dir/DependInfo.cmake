@@ -5,10 +5,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/CanBusUnit/CanBusUnit.cpp" "C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/RoboFramework_Total.dir/RoboFramework/CanBusUnit/CanBusUnit.cpp.obj"
+  "C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Math/KalmanFilter/Kalman.cpp" "C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/RoboFramework_Total.dir/RoboFramework/Math/KalmanFilter/Kalman.cpp.obj"
+  "C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Math/PID/PID.cpp" "C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/RoboFramework_Total.dir/RoboFramework/Math/PID/PID.cpp.obj"
   "C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp" "C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp.obj"
+  "C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp" "C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj"
   "C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp" "C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj"
   "C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Node/CanNode/CanNode.cpp" "C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/RoboFramework_Total.dir/RoboFramework/Node/CanNode/CanNode.cpp.obj"
-  "C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/PID/PID.cpp" "C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/RoboFramework_Total.dir/RoboFramework/PID/PID.cpp.obj"
   "C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RemoteUnit/RemoteUnit.cpp" "C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/RoboFramework_Total.dir/RoboFramework/RemoteUnit/RemoteUnit.cpp.obj"
   "C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RoboFramework.cpp" "C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/RoboFramework_Total.dir/RoboFramework/RoboFramework.cpp.obj"
   "C:/Users/Administrator/CLionProjects/RoboFramework_Total/main.cpp" "C:/Users/Administrator/CLionProjects/RoboFramework_Total/cmake-build-debug/CMakeFiles/RoboFramework_Total.dir/main.cpp.obj"
@@ -34,11 +36,13 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../RoboFramework/RemoteUnit"
   "../RoboFramework/MotorControlUnit/ChassisControlUnit"
   "../RoboFramework/MotorControlUnit/HeadControlUnit"
+  "../RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500"
   "../RoboFramework/MotorControlUnit/ShootControlUnit"
   "../RoboFramework/Node/CanNode"
   "../RoboFramework/Node/MotorNode"
   "../RoboFramework/Node/MotorNode/Motor"
-  "../RoboFramework/PID"
+  "../RoboFramework/Math/PID"
+  "../RoboFramework/Math/KalmanFilter"
   )
 
 # Targets to which this target links.

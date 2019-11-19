@@ -37,11 +37,13 @@
 					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RemoteUnit"/>
 					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ChassisControlUnit"/>
 					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit"/>
+					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500"/>
 					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit"/>
 					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Node/CanNode"/>
 					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Node/MotorNode"/>
 					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Node/MotorNode/Motor"/>
-					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/PID"/>
+					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Math/PID"/>
+					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Math/KalmanFilter"/>
 					<Add directory="c:\users\administrator\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1"/>
 					<Add directory="c:\users\administrator\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi"/>
 					<Add directory="c:\users\administrator\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward"/>
@@ -76,11 +78,13 @@
 					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RemoteUnit"/>
 					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ChassisControlUnit"/>
 					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit"/>
+					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500"/>
 					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit"/>
 					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Node/CanNode"/>
 					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Node/MotorNode"/>
 					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Node/MotorNode/Motor"/>
-					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/PID"/>
+					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Math/PID"/>
+					<Add directory="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Math/KalmanFilter"/>
 					<Add directory="c:\users\administrator\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1"/>
 					<Add directory="c:\users\administrator\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi"/>
 					<Add directory="c:\users\administrator\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward"/>
@@ -122,10 +126,28 @@
 		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/CanBusUnit/CanBusUnit.h">
 			<Option target="RoboFramework_Total"/>
 		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Math/KalmanFilter/Kalman.cpp">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Math/KalmanFilter/Kalman.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Math/PID/PID.cpp">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Math/PID/PID.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
 		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp">
 			<Option target="RoboFramework_Total"/>
 		</Unit>
 		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.h">
 			<Option target="RoboFramework_Total"/>
 		</Unit>
 		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp">
@@ -153,12 +175,6 @@
 			<Option target="RoboFramework_Total"/>
 		</Unit>
 		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Node/MotorNode/MotorNode.h">
-			<Option target="RoboFramework_Total"/>
-		</Unit>
-		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/PID/PID.cpp">
-			<Option target="RoboFramework_Total"/>
-		</Unit>
-		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/PID/PID.h">
 			<Option target="RoboFramework_Total"/>
 		</Unit>
 		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RemoteUnit/RemoteUnit.cpp">

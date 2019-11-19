@@ -13,10 +13,13 @@ include_directories(
         RoboFramework/RemoteUnit
         RoboFramework/MotorControlUnit/ChassisControlUnit
         RoboFramework/MotorControlUnit/HeadControlUnit
+        RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500
         RoboFramework/MotorControlUnit/ShootControlUnit
         RoboFramework/Node/CanNode
         RoboFramework/Node/MotorNode
         RoboFramework/Node/MotorNode/Motor
-        RoboFramework/PID)
+        RoboFramework/Math/PID
+        RoboFramework/Math/KalmanFilter
+)
 
 add_executable(RoboFramework_Total ${SOURCE} main.cpp )

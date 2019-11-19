@@ -3,9 +3,9 @@
 //
 
 #include <RemoteUnit/RemoteUnit.h>
-#include <MotorControlUnit/ShootControlUnit/ShootControlUnit.h>
-#include "RemoteUnit.h"
+#include <ShootControlUnit.h>
 #include "RoboFramework.h"
+#include "HeadControlUnit.h"
 using namespace RoboFramework;
 Thread<RemoteUnitThread>* remoteTask = nullptr;
 Thread<CanBusThread>* canBusThread = nullptr;
@@ -45,6 +45,10 @@ void RemoteControl::OnGetDataReady(RemoteData &data) {
         ChassisControlUnit::GetControlSignal()->forward_back_ch = (data.rc.ch1 - REMOTE_MID_VAL)/CHASSIS_SPEED_BASE;
     }
 
+    HeadControlUnit::getSignal()->pitch_ch = (data.rc.ch3 - HOLD_PITCH_ANGLE_MID);
+
+    HeadControlUnit::setTopMode(data.rc.s1==1);
     ChassisControlUnit::setTopMode(data.rc.s1==1);
     ShootControlUnit::setShootMode(data.rc.s2==1);
+
 }

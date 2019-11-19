@@ -149,6 +149,60 @@ RoboFramework/CanBusUnit/CanBusUnit.cpp.s:
 	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/CanBusUnit/CanBusUnit.cpp.s
 .PHONY : RoboFramework/CanBusUnit/CanBusUnit.cpp.s
 
+RoboFramework/Math/KalmanFilter/Kalman.obj: RoboFramework/Math/KalmanFilter/Kalman.cpp.obj
+
+.PHONY : RoboFramework/Math/KalmanFilter/Kalman.obj
+
+# target to build an object file
+RoboFramework/Math/KalmanFilter/Kalman.cpp.obj:
+	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/Math/KalmanFilter/Kalman.cpp.obj
+.PHONY : RoboFramework/Math/KalmanFilter/Kalman.cpp.obj
+
+RoboFramework/Math/KalmanFilter/Kalman.i: RoboFramework/Math/KalmanFilter/Kalman.cpp.i
+
+.PHONY : RoboFramework/Math/KalmanFilter/Kalman.i
+
+# target to preprocess a source file
+RoboFramework/Math/KalmanFilter/Kalman.cpp.i:
+	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/Math/KalmanFilter/Kalman.cpp.i
+.PHONY : RoboFramework/Math/KalmanFilter/Kalman.cpp.i
+
+RoboFramework/Math/KalmanFilter/Kalman.s: RoboFramework/Math/KalmanFilter/Kalman.cpp.s
+
+.PHONY : RoboFramework/Math/KalmanFilter/Kalman.s
+
+# target to generate assembly for a file
+RoboFramework/Math/KalmanFilter/Kalman.cpp.s:
+	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/Math/KalmanFilter/Kalman.cpp.s
+.PHONY : RoboFramework/Math/KalmanFilter/Kalman.cpp.s
+
+RoboFramework/Math/PID/PID.obj: RoboFramework/Math/PID/PID.cpp.obj
+
+.PHONY : RoboFramework/Math/PID/PID.obj
+
+# target to build an object file
+RoboFramework/Math/PID/PID.cpp.obj:
+	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/Math/PID/PID.cpp.obj
+.PHONY : RoboFramework/Math/PID/PID.cpp.obj
+
+RoboFramework/Math/PID/PID.i: RoboFramework/Math/PID/PID.cpp.i
+
+.PHONY : RoboFramework/Math/PID/PID.i
+
+# target to preprocess a source file
+RoboFramework/Math/PID/PID.cpp.i:
+	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/Math/PID/PID.cpp.i
+.PHONY : RoboFramework/Math/PID/PID.cpp.i
+
+RoboFramework/Math/PID/PID.s: RoboFramework/Math/PID/PID.cpp.s
+
+.PHONY : RoboFramework/Math/PID/PID.s
+
+# target to generate assembly for a file
+RoboFramework/Math/PID/PID.cpp.s:
+	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/Math/PID/PID.cpp.s
+.PHONY : RoboFramework/Math/PID/PID.cpp.s
+
 RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.obj: RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp.obj
 
 .PHONY : RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.obj
@@ -175,6 +229,33 @@ RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.s: RoboFram
 RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp.s:
 	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp.s
 .PHONY : RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp.s
+
+RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.obj: RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj
+
+.PHONY : RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.obj
+
+# target to build an object file
+RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj:
+	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj
+.PHONY : RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj
+
+RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.i: RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.i
+
+.PHONY : RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.i
+
+# target to preprocess a source file
+RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.i:
+	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.i
+.PHONY : RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.i
+
+RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.s: RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.s
+
+.PHONY : RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.s
+
+# target to generate assembly for a file
+RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.s:
+	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.s
+.PHONY : RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.s
 
 RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.obj: RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj
 
@@ -229,33 +310,6 @@ RoboFramework/Node/CanNode/CanNode.s: RoboFramework/Node/CanNode/CanNode.cpp.s
 RoboFramework/Node/CanNode/CanNode.cpp.s:
 	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/Node/CanNode/CanNode.cpp.s
 .PHONY : RoboFramework/Node/CanNode/CanNode.cpp.s
-
-RoboFramework/PID/PID.obj: RoboFramework/PID/PID.cpp.obj
-
-.PHONY : RoboFramework/PID/PID.obj
-
-# target to build an object file
-RoboFramework/PID/PID.cpp.obj:
-	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/PID/PID.cpp.obj
-.PHONY : RoboFramework/PID/PID.cpp.obj
-
-RoboFramework/PID/PID.i: RoboFramework/PID/PID.cpp.i
-
-.PHONY : RoboFramework/PID/PID.i
-
-# target to preprocess a source file
-RoboFramework/PID/PID.cpp.i:
-	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/PID/PID.cpp.i
-.PHONY : RoboFramework/PID/PID.cpp.i
-
-RoboFramework/PID/PID.s: RoboFramework/PID/PID.cpp.s
-
-.PHONY : RoboFramework/PID/PID.s
-
-# target to generate assembly for a file
-RoboFramework/PID/PID.cpp.s:
-	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/PID/PID.cpp.s
-.PHONY : RoboFramework/PID/PID.cpp.s
 
 RoboFramework/RemoteUnit/RemoteUnit.obj: RoboFramework/RemoteUnit/RemoteUnit.cpp.obj
 
@@ -350,18 +404,24 @@ help:
 	@echo ... RoboFramework/CanBusUnit/CanBusUnit.obj
 	@echo ... RoboFramework/CanBusUnit/CanBusUnit.i
 	@echo ... RoboFramework/CanBusUnit/CanBusUnit.s
+	@echo ... RoboFramework/Math/KalmanFilter/Kalman.obj
+	@echo ... RoboFramework/Math/KalmanFilter/Kalman.i
+	@echo ... RoboFramework/Math/KalmanFilter/Kalman.s
+	@echo ... RoboFramework/Math/PID/PID.obj
+	@echo ... RoboFramework/Math/PID/PID.i
+	@echo ... RoboFramework/Math/PID/PID.s
 	@echo ... RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.obj
 	@echo ... RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.i
 	@echo ... RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.s
+	@echo ... RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.obj
+	@echo ... RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.i
+	@echo ... RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.s
 	@echo ... RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.obj
 	@echo ... RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.i
 	@echo ... RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.s
 	@echo ... RoboFramework/Node/CanNode/CanNode.obj
 	@echo ... RoboFramework/Node/CanNode/CanNode.i
 	@echo ... RoboFramework/Node/CanNode/CanNode.s
-	@echo ... RoboFramework/PID/PID.obj
-	@echo ... RoboFramework/PID/PID.i
-	@echo ... RoboFramework/PID/PID.s
 	@echo ... RoboFramework/RemoteUnit/RemoteUnit.obj
 	@echo ... RoboFramework/RemoteUnit/RemoteUnit.i
 	@echo ... RoboFramework/RemoteUnit/RemoteUnit.s

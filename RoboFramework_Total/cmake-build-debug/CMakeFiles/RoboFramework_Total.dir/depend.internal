@@ -20,13 +20,34 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/CanBusUnit/CanBusUnit.cpp.obj
  C:/STM32EasyLibrary/STM32EL/stm32el_sys.h
  C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/CanBusUnit/CanBusUnit.cpp
  C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/CanBusUnit/CanBusUnit.h
+CMakeFiles/RoboFramework_Total.dir/RoboFramework/Math/KalmanFilter/Kalman.cpp.obj
+ C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Math/KalmanFilter/Kalman.cpp
+ C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Math/KalmanFilter/Kalman.h
+CMakeFiles/RoboFramework_Total.dir/RoboFramework/Math/PID/PID.cpp.obj
+ C:/STM32EasyLibrary/STM32EL/EL_CAN.h
+ C:/STM32EasyLibrary/STM32EL/EL_DMA.h
+ C:/STM32EasyLibrary/STM32EL/EL_GpioRegisterErr.h
+ C:/STM32EasyLibrary/STM32EL/EL_IOPort.h
+ C:/STM32EasyLibrary/STM32EL/EL_InPutStream.h
+ C:/STM32EasyLibrary/STM32EL/EL_OutPutStream.h
+ C:/STM32EasyLibrary/STM32EL/EL_PWM.h
+ C:/STM32EasyLibrary/STM32EL/EL_RCC.h
+ C:/STM32EasyLibrary/STM32EL/EL_SPI.h
+ C:/STM32EasyLibrary/STM32EL/EL_SerialPort.h
+ C:/STM32EasyLibrary/STM32EL/EL_Thread.h
+ C:/STM32EasyLibrary/STM32EL/EL_Timer.h
+ C:/STM32EasyLibrary/STM32EL/Volt.h
+ C:/STM32EasyLibrary/STM32EL/stm32el.h
+ C:/STM32EasyLibrary/STM32EL/stm32el_sys.h
+ C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Math/PID/PID.cpp
+ C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Math/PID/PID.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp.obj
  ../RoboFramework/CanBusUnit/CanBusUnit.h
+ ../RoboFramework/Math/PID/PID.h
  ../RoboFramework/Node/CanNode/CanNode.h
  ../RoboFramework/Node/MotorNode/Motor/M3508.h
  ../RoboFramework/Node/MotorNode/Motor/MotorBase.h
  ../RoboFramework/Node/MotorNode/MotorNode.h
- ../RoboFramework/PID/PID.h
  C:/STM32EasyLibrary/STM32EL/EL_CAN.h
  C:/STM32EasyLibrary/STM32EL/EL_DMA.h
  C:/STM32EasyLibrary/STM32EL/EL_GpioRegisterErr.h
@@ -44,13 +65,37 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ChassisControl
  C:/STM32EasyLibrary/STM32EL/stm32el_sys.h
  C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp
  C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.h
+CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj
+ ../RoboFramework/CanBusUnit/CanBusUnit.h
+ ../RoboFramework/Math/PID/PID.h
+ ../RoboFramework/Node/CanNode/CanNode.h
+ ../RoboFramework/Node/MotorNode/Motor/GM6020.h
+ ../RoboFramework/Node/MotorNode/Motor/MotorBase.h
+ ../RoboFramework/Node/MotorNode/MotorNode.h
+ C:/STM32EasyLibrary/STM32EL/EL_CAN.h
+ C:/STM32EasyLibrary/STM32EL/EL_DMA.h
+ C:/STM32EasyLibrary/STM32EL/EL_GpioRegisterErr.h
+ C:/STM32EasyLibrary/STM32EL/EL_IOPort.h
+ C:/STM32EasyLibrary/STM32EL/EL_InPutStream.h
+ C:/STM32EasyLibrary/STM32EL/EL_OutPutStream.h
+ C:/STM32EasyLibrary/STM32EL/EL_PWM.h
+ C:/STM32EasyLibrary/STM32EL/EL_RCC.h
+ C:/STM32EasyLibrary/STM32EL/EL_SPI.h
+ C:/STM32EasyLibrary/STM32EL/EL_SerialPort.h
+ C:/STM32EasyLibrary/STM32EL/EL_Thread.h
+ C:/STM32EasyLibrary/STM32EL/EL_Timer.h
+ C:/STM32EasyLibrary/STM32EL/Volt.h
+ C:/STM32EasyLibrary/STM32EL/stm32el.h
+ C:/STM32EasyLibrary/STM32EL/stm32el_sys.h
+ C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp
+ C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj
  ../RoboFramework/CanBusUnit/CanBusUnit.h
+ ../RoboFramework/Math/PID/PID.h
  ../RoboFramework/Node/CanNode/CanNode.h
  ../RoboFramework/Node/MotorNode/Motor/M2006.h
  ../RoboFramework/Node/MotorNode/Motor/MotorBase.h
  ../RoboFramework/Node/MotorNode/MotorNode.h
- ../RoboFramework/PID/PID.h
  C:/STM32EasyLibrary/STM32EL/EL_CAN.h
  C:/STM32EasyLibrary/STM32EL/EL_DMA.h
  C:/STM32EasyLibrary/STM32EL/EL_GpioRegisterErr.h
@@ -86,24 +131,6 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/Node/CanNode/CanNode.cpp.obj
  C:/STM32EasyLibrary/STM32EL/stm32el_sys.h
  C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Node/CanNode/CanNode.cpp
  C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/Node/CanNode/CanNode.h
-CMakeFiles/RoboFramework_Total.dir/RoboFramework/PID/PID.cpp.obj
- C:/STM32EasyLibrary/STM32EL/EL_CAN.h
- C:/STM32EasyLibrary/STM32EL/EL_DMA.h
- C:/STM32EasyLibrary/STM32EL/EL_GpioRegisterErr.h
- C:/STM32EasyLibrary/STM32EL/EL_IOPort.h
- C:/STM32EasyLibrary/STM32EL/EL_InPutStream.h
- C:/STM32EasyLibrary/STM32EL/EL_OutPutStream.h
- C:/STM32EasyLibrary/STM32EL/EL_PWM.h
- C:/STM32EasyLibrary/STM32EL/EL_RCC.h
- C:/STM32EasyLibrary/STM32EL/EL_SPI.h
- C:/STM32EasyLibrary/STM32EL/EL_SerialPort.h
- C:/STM32EasyLibrary/STM32EL/EL_Thread.h
- C:/STM32EasyLibrary/STM32EL/EL_Timer.h
- C:/STM32EasyLibrary/STM32EL/Volt.h
- C:/STM32EasyLibrary/STM32EL/stm32el.h
- C:/STM32EasyLibrary/STM32EL/stm32el_sys.h
- C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/PID/PID.cpp
- C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/PID/PID.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/RemoteUnit/RemoteUnit.cpp.obj
  C:/STM32EasyLibrary/STM32EL/EL_CAN.h
  C:/STM32EasyLibrary/STM32EL/EL_DMA.h
@@ -124,14 +151,16 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/RemoteUnit/RemoteUnit.cpp.obj
  C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RemoteUnit/RemoteUnit.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/RoboFramework.cpp.obj
  ../RoboFramework/CanBusUnit/CanBusUnit.h
+ ../RoboFramework/Math/PID/PID.h
  ../RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.h
+ ../RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.h
  ../RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.h
  ../RoboFramework/Node/CanNode/CanNode.h
+ ../RoboFramework/Node/MotorNode/Motor/GM6020.h
  ../RoboFramework/Node/MotorNode/Motor/M2006.h
  ../RoboFramework/Node/MotorNode/Motor/M3508.h
  ../RoboFramework/Node/MotorNode/Motor/MotorBase.h
  ../RoboFramework/Node/MotorNode/MotorNode.h
- ../RoboFramework/PID/PID.h
  ../RoboFramework/RemoteUnit/RemoteUnit.h
  C:/STM32EasyLibrary/STM32EL/EL_CAN.h
  C:/STM32EasyLibrary/STM32EL/EL_DMA.h
@@ -152,6 +181,7 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/RoboFramework.cpp.obj
  C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RoboFramework.h
 CMakeFiles/RoboFramework_Total.dir/main.cpp.obj
  ../RoboFramework/CanBusUnit/CanBusUnit.h
+ ../RoboFramework/Math/PID/PID.h
  ../RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.h
  ../RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.h
  ../RoboFramework/Node/CanNode/CanNode.h
@@ -159,7 +189,6 @@ CMakeFiles/RoboFramework_Total.dir/main.cpp.obj
  ../RoboFramework/Node/MotorNode/Motor/M3508.h
  ../RoboFramework/Node/MotorNode/Motor/MotorBase.h
  ../RoboFramework/Node/MotorNode/MotorNode.h
- ../RoboFramework/PID/PID.h
  ../RoboFramework/RemoteUnit/RemoteUnit.h
  ../RoboFramework/RoboFramework.h
  C:/STM32EasyLibrary/STM32EL/EL_CAN.h
