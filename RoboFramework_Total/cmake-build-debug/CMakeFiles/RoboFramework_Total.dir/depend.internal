@@ -67,7 +67,9 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ChassisControl
  C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj
  ../RoboFramework/CanBusUnit/CanBusUnit.h
+ ../RoboFramework/Math/KalmanFilter/Kalman.h
  ../RoboFramework/Math/PID/PID.h
+ ../RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.h
  ../RoboFramework/Node/CanNode/CanNode.h
  ../RoboFramework/Node/MotorNode/Motor/GM6020.h
  ../RoboFramework/Node/MotorNode/Motor/MotorBase.h
@@ -89,6 +91,25 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUni
  C:/STM32EasyLibrary/STM32EL/stm32el_sys.h
  C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp
  C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.h
+CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.cpp.obj
+ C:/STM32EasyLibrary/STM32EL/EL_CAN.h
+ C:/STM32EasyLibrary/STM32EL/EL_DMA.h
+ C:/STM32EasyLibrary/STM32EL/EL_GpioRegisterErr.h
+ C:/STM32EasyLibrary/STM32EL/EL_IOPort.h
+ C:/STM32EasyLibrary/STM32EL/EL_InPutStream.h
+ C:/STM32EasyLibrary/STM32EL/EL_OutPutStream.h
+ C:/STM32EasyLibrary/STM32EL/EL_PWM.h
+ C:/STM32EasyLibrary/STM32EL/EL_RCC.h
+ C:/STM32EasyLibrary/STM32EL/EL_SPI.h
+ C:/STM32EasyLibrary/STM32EL/EL_SerialPort.h
+ C:/STM32EasyLibrary/STM32EL/EL_Thread.h
+ C:/STM32EasyLibrary/STM32EL/EL_Timer.h
+ C:/STM32EasyLibrary/STM32EL/Volt.h
+ C:/STM32EasyLibrary/STM32EL/stm32el.h
+ C:/STM32EasyLibrary/STM32EL/stm32el_sys.h
+ C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.cpp
+ C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.h
+ C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500_Register.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj
  ../RoboFramework/CanBusUnit/CanBusUnit.h
  ../RoboFramework/Math/PID/PID.h
@@ -151,9 +172,11 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/RemoteUnit/RemoteUnit.cpp.obj
  C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RemoteUnit/RemoteUnit.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/RoboFramework.cpp.obj
  ../RoboFramework/CanBusUnit/CanBusUnit.h
+ ../RoboFramework/Math/KalmanFilter/Kalman.h
  ../RoboFramework/Math/PID/PID.h
  ../RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.h
  ../RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.h
+ ../RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.h
  ../RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.h
  ../RoboFramework/Node/CanNode/CanNode.h
  ../RoboFramework/Node/MotorNode/Motor/GM6020.h

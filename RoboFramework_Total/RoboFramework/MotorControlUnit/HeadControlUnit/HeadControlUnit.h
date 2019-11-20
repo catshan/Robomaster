@@ -9,6 +9,8 @@
 #include "stm32el.h"
 #include "PID.h"
 #include "MotorNode.h"
+#include "Kalman.h"
+#include "MPU6500.h"
 #define HOLD_PITCH_ANGLE_MAX 105
 #define HOLD_PITCH_ANGLE_MID 95
 #define HOLD_PITCH_ANGLE_MIN 75
@@ -39,18 +41,22 @@ private:
         int yaw_ch;
         int pitch_ch;//俯仰角 motor[1]
     }signal;
-    static HeadMotor* motor[2];
+    static HeadMotor* motor_Yaw;
+    static HeadMotor* motor_Pitch;
+public:
+    static HeadMotor *getMotorYaw();
+
+    static HeadMotor *getMotorPitch();
+
+private:
     static bool topMode;
 public:
     static HeadControlSignal *getSignal();
-
-    static HeadMotor **getMotor();
 
     static bool isTopMode();
     static void setTopMode(bool topMode);
 public:
     static void Init();
-
 };
 
 
