@@ -150,6 +150,15 @@
 		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.h">
 			<Option target="RoboFramework_Total"/>
 		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.cpp">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500_Register.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
 		<Unit filename="C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp">
 			<Option target="RoboFramework_Total"/>
 		</Unit>
