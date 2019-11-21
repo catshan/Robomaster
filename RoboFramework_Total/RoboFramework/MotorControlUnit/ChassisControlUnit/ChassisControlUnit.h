@@ -46,8 +46,9 @@ public:
     static void Init();
 
     static ChassisControlSignal* GetControlSignal();
-};
 
+    static int GetRevolveSpeed();
+};
 
 class ChassisControlThread:public ThreadTask{
 public:

@@ -39,7 +39,9 @@ Kalman* KalmanYaw = nullptr;
 Kalman* KalmanPitch = nullptr;
 Kalman* KalmanTargetYaw = nullptr;
 Kalman* KalmanTargetPitch = nullptr;
+MPU6500* mpu6500 = nullptr;
 bool HeadControlUnit::topMode = false;
+bool HeadControlUnit::busy = false;
 HeadControlUnit::HeadControlSignal HeadControlUnit::signal = {0,0};
 Thread<HeadControlThread>* headTread = nullptr;
 
@@ -52,6 +54,20 @@ void RoboFramework::HeadControlUnit::Init() {
     KalmanPitch = new Kalman();
     KalmanTargetYaw = new Kalman();
     KalmanTargetPitch = new Kalman();
+
+    if(!HeadControlUnit::isBusy()){
+        float yaw = KalmanYaw->getAngle(motor_Yaw->getMotor()->getAngle(),mpu6500->GetYawAngle(),0.001);
+        float pitch = KalmanPitch->getAngle(motor_Pitch->getMotor()->getAngle(),mpu6500->GetPitchAngle(),0.001);
+        if(yaw <= 0){
+            yaw += 360;
+        }
+        if(pitch <= 0){
+            pitch += 360;
+        }
+        motor_Yaw->getMotor()->setAngle(yaw);
+        motor_Pitch->getMotor()->setAngle(pitch);
+    }
+
 
     KalmanYaw->setQangle(0.1);
     KalmanTargetYaw->setQangle(0.1);
@@ -71,27 +87,46 @@ HeadMotor *HeadControlUnit::getMotorPitch() {
     return motor_Pitch;
 }
 
+bool HeadControlUnit::isBusy() {
+    return busy;
+}
 
-MPU6500* mpu6500 = nullptr;
+void HeadControlUnit::setBusy(bool busy) {
+    HeadControlUnit::busy = busy;
+}
+
+
 void RoboFramework::HeadControlThread::start() {
-    mpu6500->Update();
     short angle = 0;
     short speed = 0;
 
-    for (float t = 0;; Delay::ms(3), t += 0.1) {
-
-
+    for (;; Delay::ms(3)) {
+        HeadControlUnit::setBusy(true);
+        mpu6500->Update();
+        HeadControlUnit::setBusy(false);
         auto angleStruct = HeadControlUnit::getSignal();
         angle = angleStruct->pitch_ch;
-        //todo speed
+
+        /*todo YawSpeed */
+        if(angle > HOLD_YAW_ANGLE_MAX)
+        {
+            angle = HOLD_YAW_ANGLE_MAX;
+        }
+        if(angle < HOLD_YAW_ANGLE_MIN )
+        {
+            angle = HOLD_YAW_ANGLE_MIN;
+        }
+
+        /*todo 计算位置环PID 输出目标速度*/
+
         if (HeadControlUnit::isTopMode()) {
-            //todo YawSpeed with chassis
+
             HeadControlUnit::getMotorYaw()->run(speed);
         }else{
             HeadControlUnit::getMotorYaw()->run(0);
         }
 
-
+        /*RunPitch*/
         if(angle > HOLD_PITCH_ANGLE_MAX)
         {
             angle = HOLD_PITCH_ANGLE_MAX;
@@ -102,7 +137,7 @@ void RoboFramework::HeadControlThread::start() {
         }
 
 
-        /*TODO  如果当前位置等于或超过极限位置,不允许继续前进*/
+        /*  如果当前位置等于或超过极限位置,不允许继续前进*/
         if(HeadControlUnit::getMotorPitch()->getMotor()->getAngle() >= HOLD_PITCH_ANGLE_MAX){
             //todo get pitchAngle from MPU6500 or MotorPitch ?
             HeadControlUnit::getMotorPitch()->run(0);

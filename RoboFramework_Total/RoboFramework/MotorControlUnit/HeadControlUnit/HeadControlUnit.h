@@ -17,7 +17,7 @@
 
 #define HOLD_YAW_ANGLE_MAX 345
 #define HOLD_YAW_ANGLE_MID 270
-#define HOLD_yaw_ANGLE_MIN 190
+#define HOLD_YAW_ANGLE_MIN 190
 
 namespace RoboFramework{
 
@@ -50,6 +50,12 @@ public:
 
 private:
     static bool topMode;
+    static bool busy;
+public:
+    static bool isBusy();
+
+    static void setBusy(bool busy);
+
 public:
     static HeadControlSignal *getSignal();
 
