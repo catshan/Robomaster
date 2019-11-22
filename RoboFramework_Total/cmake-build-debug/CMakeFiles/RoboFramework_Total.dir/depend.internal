@@ -69,9 +69,11 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUni
  ../RoboFramework/CanBusUnit/CanBusUnit.h
  ../RoboFramework/Math/KalmanFilter/Kalman.h
  ../RoboFramework/Math/PID/PID.h
+ ../RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.h
  ../RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.h
  ../RoboFramework/Node/CanNode/CanNode.h
  ../RoboFramework/Node/MotorNode/Motor/GM6020.h
+ ../RoboFramework/Node/MotorNode/Motor/M3508.h
  ../RoboFramework/Node/MotorNode/Motor/MotorBase.h
  ../RoboFramework/Node/MotorNode/MotorNode.h
  C:/STM32EasyLibrary/STM32EL/EL_CAN.h

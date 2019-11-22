@@ -43,6 +43,11 @@ ChassisControlUnit::ChassisControlSignal *ChassisControlUnit::GetControlSignal()
 }
 auto speedStruct = *ChassisControlUnit::GetControlSignal();
 int ChassisControlUnit::GetRevolveSpeed() { return speedStruct.rotate_ch; }
+
+bool ChassisControlUnit::isRevolve() {
+    return speedStruct.rotate_ch != 0;
+}
+
 void RoboFramework::ChassisControlThread::start() {
     short inVal[4];
     u8 index1 = 0,index2 = 3;

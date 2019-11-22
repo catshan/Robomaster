@@ -30,45 +30,15 @@ MotorNode.h
 M3508.h
 ../RoboFramework/MotorControlUnit/ChassisControlUnit/M3508.h
 
-../RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.h
-GM6020.h
-../RoboFramework/MotorControlUnit/HeadControlUnit/GM6020.h
-stm32el.h
-../RoboFramework/MotorControlUnit/HeadControlUnit/stm32el.h
-PID.h
-../RoboFramework/MotorControlUnit/HeadControlUnit/PID.h
-MotorNode.h
-../RoboFramework/MotorControlUnit/HeadControlUnit/MotorNode.h
-Kalman.h
-../RoboFramework/MotorControlUnit/HeadControlUnit/Kalman.h
-MPU6500.h
-../RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500.h
-
 ../RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.h
 stm32el.h
 ../RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/stm32el.h
-
-../RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.h
-stm32el.h
-../RoboFramework/MotorControlUnit/ShootControlUnit/stm32el.h
-PID.h
-../RoboFramework/MotorControlUnit/ShootControlUnit/PID.h
-MotorNode.h
-../RoboFramework/MotorControlUnit/ShootControlUnit/MotorNode.h
-M2006.h
-../RoboFramework/MotorControlUnit/ShootControlUnit/M2006.h
 
 ../RoboFramework/Node/CanNode/CanNode.h
 stm32el.h
 ../RoboFramework/Node/CanNode/stm32el.h
 
 ../RoboFramework/Node/MotorNode/Motor/GM6020.h
-stm32el.h
-../RoboFramework/Node/MotorNode/Motor/stm32el.h
-MotorBase.h
-../RoboFramework/Node/MotorNode/Motor/MotorBase.h
-
-../RoboFramework/Node/MotorNode/Motor/M2006.h
 stm32el.h
 ../RoboFramework/Node/MotorNode/Motor/stm32el.h
 MotorBase.h
@@ -95,10 +65,6 @@ CanNode.h
 ../RoboFramework/Node/MotorNode/CanNode.h
 MotorBase.h
 ../RoboFramework/Node/MotorNode/MotorBase.h
-
-../RoboFramework/RemoteUnit/RemoteUnit.h
-stm32el.h
-../RoboFramework/RemoteUnit/stm32el.h
 
 C:/STM32EasyLibrary/STM32EL/EL_CAN.h
 stm32el_sys.h
@@ -223,20 +189,6 @@ Kalman.h
 C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/Kalman.h
 MPU6500.h
 C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500.h
-
-C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RoboFramework.cpp
-RemoteUnit/RemoteUnit.h
--
-ShootControlUnit.h
--
-RoboFramework.h
-C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RoboFramework.h
-HeadControlUnit.h
-C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/HeadControlUnit.h
-
-C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RoboFramework.h
-RemoteUnit.h
-C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RemoteUnit.h
 ChassisControlUnit.h
-C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/ChassisControlUnit.h
+C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/ChassisControlUnit.h
 

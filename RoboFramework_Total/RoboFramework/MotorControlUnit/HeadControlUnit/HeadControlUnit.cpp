@@ -19,6 +19,21 @@ void RoboFramework::HeadMotor::run_angle(float target) {
     sendData(out);
 }
 
+short HeadMotor::PID_speed_out(float target,short current) {
+    s_pid->setTarget(target);
+    return s_pid->calculate(current);
+}
+
+short HeadMotor::PID_angle_out(float target) {
+    a_pid->setTarget(target);
+    return a_pid->calculate(getMotor()->getAngle());
+}
+
+void HeadMotor::sendPID(short S_or_A) {
+    sendData(S_or_A);
+}
+
+
 RoboFramework::HeadControlUnit::HeadControlSignal *RoboFramework::HeadControlUnit::getSignal() {
     return &signal;
 }
@@ -117,14 +132,43 @@ void RoboFramework::HeadControlThread::start() {
             angle = HOLD_YAW_ANGLE_MIN;
         }
 
-        /*todo 计算位置环PID 输出目标速度*/
-
-        if (HeadControlUnit::isTopMode()) {
-
-            HeadControlUnit::getMotorYaw()->run(speed);
+        /*计算位置环PID 输出目标速度*/
+        short targetSpeed = 0;
+        short currentSpeed = 0;
+        short currentAngle = 0;
+        if(!HeadControlUnit::isBusy()){
+            currentSpeed = mpu6500->GetYawAngle();
         }else{
-            HeadControlUnit::getMotorYaw()->run(0);
+            //陀螺仪数据获取失败
+            return;
         }
+        currentAngle = HeadControlUnit::getMotorYaw()->getMotor()->getAngle();
+        if(currentAngle <=0){
+            currentAngle += 360;
+            HeadControlUnit::getMotorYaw()->getMotor()->setAngle(currentAngle);
+        }
+
+        if (!HeadControlUnit::isTopMode()) {
+            targetSpeed = HeadControlUnit::getMotorYaw()->PID_angle_out(angle);
+            short chassisSpeed = -ChassisControlUnit::GetRevolveSpeed()/19/60.0;
+            if(ChassisControlUnit::isRevolve()){
+                currentSpeed -= chassisSpeed; //与底盘陀螺仪做速度补偿
+            }
+        }
+        /*  如果当前位置等于或超过极限位置,不允许继续前进*/
+        short targetCurrent = HeadControlUnit::getMotorYaw()->PID_speed_out(targetSpeed,currentSpeed);
+        if(HeadControlUnit::getMotorYaw()->getMotor()->getAngle() >= HOLD_YAW_ANGLE_MAX){
+            if (targetCurrent > 0){
+                targetCurrent = 0;
+            }
+        }else if(HeadControlUnit::getMotorYaw()->getMotor()->getAngle() <= HOLD_YAW_ANGLE_MID){
+            if(targetCurrent < 0){
+                targetCurrent = 0;
+            }
+        }
+        HeadControlUnit::getMotorYaw()->sendPID(targetCurrent);
+
+
 
         /*RunPitch*/
         if(angle > HOLD_PITCH_ANGLE_MAX)

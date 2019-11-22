@@ -11,6 +11,7 @@
 #include "MotorNode.h"
 #include "Kalman.h"
 #include "MPU6500.h"
+#include "ChassisControlUnit.h"
 #define HOLD_PITCH_ANGLE_MAX 105
 #define HOLD_PITCH_ANGLE_MID 95
 #define HOLD_PITCH_ANGLE_MIN 75
@@ -22,6 +23,7 @@
 namespace RoboFramework{
 
 class HeadMotor:public MotorNode<GM6020>{
+
 private:
     PID* s_pid = new PID(20000,20000,0,0,3500,110,500);//速度环
     PID* a_pid = new PID(100,0,0,0,0.07,0,0);//位置环
@@ -31,8 +33,10 @@ public:
     using MotorNode::MotorNode;
 
     void run(float target) override;
-
     void run_angle(float target);
+    short PID_speed_out(float target,short current);
+    short PID_angle_out(float target);
+    void sendPID(short speed);
 };
 
 class HeadControlUnit{
