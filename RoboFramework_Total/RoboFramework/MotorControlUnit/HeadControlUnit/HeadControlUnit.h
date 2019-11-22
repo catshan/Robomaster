@@ -36,7 +36,7 @@ public:
     void run_angle(float target);
     short PID_speed_out(float target,short current);
     short PID_angle_out(float target);
-    void sendPID(short speed);
+    void sendPID(short Speed_or_Angle);
 };
 
 class HeadControlUnit{
@@ -67,6 +67,8 @@ public:
     static void setTopMode(bool topMode);
 public:
     static void Init();
+    static void RunYaw(short angle_Yaw);
+    static void RunPitch(short angle_Pitch);
 };
 
 

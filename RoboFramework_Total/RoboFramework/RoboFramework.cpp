@@ -46,7 +46,8 @@ void RemoteControl::OnGetDataReady(RemoteData &data) {
     }
 
     HeadControlUnit::getSignal()->pitch_ch = (data.rc.ch3 - HOLD_PITCH_ANGLE_MID);
-
+    //HeadControlUnit::getSignal()->pitch_ch = (data.mouse.y - HOLD_PITCH_ANGLE_MID);
+    HeadControlUnit::getSignal()->yaw_ch = (data.mouse.x - HOLD_YAW_ANGLE_MID);
     HeadControlUnit::setTopMode(data.rc.s1==1);
     ChassisControlUnit::setTopMode(data.rc.s1==1);
     ShootControlUnit::setShootMode(data.rc.s2==1);
