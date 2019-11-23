@@ -1,3 +1,0 @@
-"E:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\mm.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\mm.dir/objects.a @CMakeFiles\mm.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\mm.dir/objects.a -Wl,--no-whole-archive  -o mm.exe -Wl,--out-implib,libmm.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\mm.dir\linklibs.rsp
