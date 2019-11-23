@@ -206,10 +206,14 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/RoboFramework.cpp.obj
  C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RoboFramework.h
 CMakeFiles/RoboFramework_Total.dir/main.cpp.obj
  ../RoboFramework/CanBusUnit/CanBusUnit.h
+ ../RoboFramework/Math/KalmanFilter/Kalman.h
  ../RoboFramework/Math/PID/PID.h
  ../RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.h
+ ../RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.h
+ ../RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.h
  ../RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.h
  ../RoboFramework/Node/CanNode/CanNode.h
+ ../RoboFramework/Node/MotorNode/Motor/GM6020.h
  ../RoboFramework/Node/MotorNode/Motor/M2006.h
  ../RoboFramework/Node/MotorNode/Motor/M3508.h
  ../RoboFramework/Node/MotorNode/Motor/MotorBase.h

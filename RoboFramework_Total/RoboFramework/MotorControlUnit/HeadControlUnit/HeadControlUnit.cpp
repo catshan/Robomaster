@@ -71,7 +71,7 @@ void RoboFramework::HeadControlUnit::Init() {
     KalmanTargetPitch = new Kalman();
 
     if(!HeadControlUnit::isBusy()){
-        float yaw = KalmanYaw->getAngle(motor_Yaw->getMotor()->getAngle(),mpu6500->GetYawAngle(),0.001);//todo
+        float yaw = KalmanYaw->getAngle(motor_Yaw->getMotor()->getAngle(),mpu6500->GetYawAngle(),0.001); //todo
         float pitch = KalmanPitch->getAngle(motor_Pitch->getMotor()->getAngle(),mpu6500->GetPitchAngle(),0.001);
         if(yaw <= 0){
             yaw += 360;
