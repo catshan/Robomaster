@@ -9,7 +9,8 @@ namespace RoboFramework{
 class GM6020:public MotorBase{
 public:
     void upData(u8 *data) override {
-        angle = ((short)data[0]<<8) + data[1];
+        angle = ((short)data[0]<<8) + data[1]/22.757777f;
+        angle -= 180;
         speed = ((short)data[2]<<8) + data[3];
         current = ((short)data[4]<<8) + data[5];
         temperature = data[6];

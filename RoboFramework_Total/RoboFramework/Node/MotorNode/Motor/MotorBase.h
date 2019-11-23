@@ -22,6 +22,10 @@ namespace RoboFramework{
             return angle;
         }
 
+        void setAngle(short angle) {
+            MotorBase::angle = angle;
+        }
+
         short getCurrent() const {
             return current;
         }

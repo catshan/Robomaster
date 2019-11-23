@@ -68,9 +68,11 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ChassisControl
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj: ../RoboFramework/CanBusUnit/CanBusUnit.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj: ../RoboFramework/Math/KalmanFilter/Kalman.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj: ../RoboFramework/Math/PID/PID.h
+CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj: ../RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj: ../RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj: ../RoboFramework/Node/CanNode/CanNode.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj: ../RoboFramework/Node/MotorNode/Motor/GM6020.h
+CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj: ../RoboFramework/Node/MotorNode/Motor/M3508.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj: ../RoboFramework/Node/MotorNode/Motor/MotorBase.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj: ../RoboFramework/Node/MotorNode/MotorNode.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj: C:/STM32EasyLibrary/STM32EL/EL_CAN.h
@@ -203,10 +205,14 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/RoboFramework.cpp.obj: ../RoboF
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/RoboFramework.cpp.obj: ../RoboFramework/RoboFramework.h
 
 CMakeFiles/RoboFramework_Total.dir/main.cpp.obj: ../RoboFramework/CanBusUnit/CanBusUnit.h
+CMakeFiles/RoboFramework_Total.dir/main.cpp.obj: ../RoboFramework/Math/KalmanFilter/Kalman.h
 CMakeFiles/RoboFramework_Total.dir/main.cpp.obj: ../RoboFramework/Math/PID/PID.h
 CMakeFiles/RoboFramework_Total.dir/main.cpp.obj: ../RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.h
+CMakeFiles/RoboFramework_Total.dir/main.cpp.obj: ../RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.h
+CMakeFiles/RoboFramework_Total.dir/main.cpp.obj: ../RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.h
 CMakeFiles/RoboFramework_Total.dir/main.cpp.obj: ../RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.h
 CMakeFiles/RoboFramework_Total.dir/main.cpp.obj: ../RoboFramework/Node/CanNode/CanNode.h
+CMakeFiles/RoboFramework_Total.dir/main.cpp.obj: ../RoboFramework/Node/MotorNode/Motor/GM6020.h
 CMakeFiles/RoboFramework_Total.dir/main.cpp.obj: ../RoboFramework/Node/MotorNode/Motor/M2006.h
 CMakeFiles/RoboFramework_Total.dir/main.cpp.obj: ../RoboFramework/Node/MotorNode/Motor/M3508.h
 CMakeFiles/RoboFramework_Total.dir/main.cpp.obj: ../RoboFramework/Node/MotorNode/Motor/MotorBase.h
