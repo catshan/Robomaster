@@ -116,6 +116,7 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUn
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj: ../RoboFramework/Math/PID/PID.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj: ../RoboFramework/Node/CanNode/CanNode.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj: ../RoboFramework/Node/MotorNode/Motor/M2006.h
+CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj: ../RoboFramework/Node/MotorNode/Motor/M3508.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj: ../RoboFramework/Node/MotorNode/Motor/MotorBase.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj: ../RoboFramework/Node/MotorNode/MotorNode.h
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj: C:/STM32EasyLibrary/STM32EL/EL_CAN.h

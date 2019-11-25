@@ -16,6 +16,7 @@ void RoboFramework::ShootControlThread::start() {
         ShootControlUnit::getMotor()[0]->run(TAGGLE_SPEED);
     }
     ShootControlUnit::getMotor()[1]->run(SHOOT_SPEED);
+    ShootControlUnit::getMotor()[2]->run(-SHOOT_SPEED);
 }
 
 
@@ -23,11 +24,12 @@ RoboFramework::ShootMotor **RoboFramework::ShootControlUnit::getMotor() {
     return motor;
 }
 Thread<ShootControlThread>* shootThread = nullptr;
-ShootMotor* ShootControlUnit::motor[2] = {nullptr};
+ShootMotor* ShootControlUnit::motor[3] = {nullptr};
 bool ShootControlUnit::shootMode = false;
 void RoboFramework::ShootControlUnit::Init() {
     motor[0] = new ShootMotor(5);
     motor[1] = new ShootMotor(6);
+    motor[2] = new ShootMotor(7);
     shootThread = new Thread<ShootControlThread>("Shoot",512);
     shootThread->Login();
 }

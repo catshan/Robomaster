@@ -59,6 +59,8 @@ MotorNode.h
 ../RoboFramework/MotorControlUnit/ShootControlUnit/MotorNode.h
 M2006.h
 ../RoboFramework/MotorControlUnit/ShootControlUnit/M2006.h
+M3508.h
+../RoboFramework/MotorControlUnit/ShootControlUnit/M3508.h
 
 ../RoboFramework/Node/CanNode/CanNode.h
 stm32el.h
@@ -213,6 +215,38 @@ C:/STM32EasyLibrary/STM32EL/Volt.h
 C:/STM32EasyLibrary/STM32EL/stm32el_sys.h
 cstdint
 -
+
+C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp
+ShootControlUnit.h
+C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.h
+
+C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.h
+stm32el.h
+C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit/stm32el.h
+PID.h
+C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit/PID.h
+MotorNode.h
+C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit/MotorNode.h
+M2006.h
+C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit/M2006.h
+M3508.h
+C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit/M3508.h
+
+C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RoboFramework.cpp
+RemoteUnit/RemoteUnit.h
+-
+ShootControlUnit.h
+-
+RoboFramework.h
+C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RoboFramework.h
+HeadControlUnit.h
+C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/HeadControlUnit.h
+
+C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RoboFramework.h
+RemoteUnit.h
+C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/RemoteUnit.h
+ChassisControlUnit.h
+C:/Users/Administrator/CLionProjects/RoboFramework_Total/RoboFramework/ChassisControlUnit.h
 
 C:/Users/Administrator/CLionProjects/RoboFramework_Total/main.cpp
 RemoteUnit.h

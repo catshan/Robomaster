@@ -4,16 +4,17 @@
 
 #ifndef ROBOFRAMEWORK_TOTAL_SHOOTCONTROLUNIT_H
 #define ROBOFRAMEWORK_TOTAL_SHOOTCONTROLUNIT_H
+
 #include "stm32el.h"
 #include "PID.h"
 #include "MotorNode.h"
 #include "M2006.h"
-
+#include "M3508.h"
 #define TAGGLE_SPEED 1000  //拨弹电机为5
 #define SHOOT_SPEED 10000   //发射电机为6
 
 namespace RoboFramework{
-class ShootMotor :public MotorNode<M2006>{
+class ShootMotor :public MotorNode<M3508>{
 private:
     PID* pid = new PID(10000,1000,0,0,1.5,0.001,2);
 public:
@@ -22,10 +23,9 @@ public:
     void run(float target) override;
 };
 
-
 class ShootControlUnit{
 private:
-    static ShootMotor* motor[2];
+    static ShootMotor* motor[3];
     static bool shootMode;
 public:
     static bool isShootMode();
