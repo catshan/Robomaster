@@ -46,6 +46,11 @@ void CanBusUnit::AddNode(CanType type, CanNode *node) {
             can2NodeList->push_back(node);
             break;
     }
+    for(u16 id:*sendIDList){
+        if(id == node->getSendId()){
+            return;
+        }
+    }
     sendIDList->push_back(node->getSendId());
 }
 

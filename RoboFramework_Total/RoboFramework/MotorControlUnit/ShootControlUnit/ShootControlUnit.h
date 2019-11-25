@@ -10,7 +10,7 @@
 #include "MotorNode.h"
 #include "M2006.h"
 #include "M3508.h"
-#define TAGGLE_SPEED 1000  //拨弹电机为5
+#define TAGGLE_SPEED 2500  //拨弹电机为5
 #define SHOOT_SPEED 10000   //发射电机为6
 
 namespace RoboFramework{
@@ -22,11 +22,21 @@ public:
 
     void run(float target) override;
 };
-
+class TaggleMotor:public MotorNode<M2006>{
+private:
+    PID* pid = new PID(10000,1000,0,0,1.5,0.001,2);
+public:
+    using MotorNode::MotorNode;
+    void run(float target) override;
+};
 class ShootControlUnit{
 private:
-    static ShootMotor* motor[3];
+    static ShootMotor* shootMotor[2];
+    static TaggleMotor* taggleMotor[1];
     static bool shootMode;
+public:
+    static TaggleMotor **getTaggleMotor();
+
 public:
     static bool isShootMode();
 
