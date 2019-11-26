@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RoboFramework_Total"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\STM32EasyLibrary\;CMake Files\..\..\..\..\STM32EasyLibrary\lib\;CMake Files\..\..\..\..\STM32EasyLibrary\lib\cmake\;CMake Files\..\..\..\..\STM32EasyLibrary\lib\cmake\stm32el\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RoboFramework_Total">
+				<Option output="C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/RoboFramework_Total" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="C:/STM32EasyLibrary/STM32EL"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/CanBusUnit"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/RemoteUnit"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/ChassisControlUnit"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Node/CanNode"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Node/MotorNode"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Node/MotorNode/Motor"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Math/PID"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Math/KalmanFilter"/>
+					<Add directory="d:\clion 2019.2.1\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1"/>
+					<Add directory="d:\clion 2019.2.1\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion 2019.2.1\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward"/>
+					<Add directory="d:\clion 2019.2.1\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include"/>
+					<Add directory="d:\clion 2019.2.1\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include-fixed"/>
+					<Add directory="d:\clion 2019.2.1\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 RoboFramework_Total"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RoboFramework_Total/fast">
+				<Option output="C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/RoboFramework_Total" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F427xx"/>
+					<Add directory="C:/STM32EasyLibrary/STM32EL"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/CanBusUnit"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/RemoteUnit"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/ChassisControlUnit"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Node/CanNode"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Node/MotorNode"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Node/MotorNode/Motor"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Math/PID"/>
+					<Add directory="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Math/KalmanFilter"/>
+					<Add directory="d:\clion 2019.2.1\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1"/>
+					<Add directory="d:\clion 2019.2.1\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion 2019.2.1\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward"/>
+					<Add directory="d:\clion 2019.2.1\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include"/>
+					<Add directory="d:\clion 2019.2.1\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include-fixed"/>
+					<Add directory="d:\clion 2019.2.1\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 RoboFramework_Total/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/RoboFramework_Total/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/CanBusUnit/CanBusUnit.cpp">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/CanBusUnit/CanBusUnit.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Math/KalmanFilter/Kalman.cpp">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Math/KalmanFilter/Kalman.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Math/PID/PID.cpp">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Math/PID/PID.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.cpp">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500_Register.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Node/CanNode/CanNode.cpp">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Node/CanNode/CanNode.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Node/MotorNode/Motor/GM6020.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Node/MotorNode/Motor/M2006.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Node/MotorNode/Motor/M3508.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Node/MotorNode/Motor/MotorBase.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/Node/MotorNode/MotorNode.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/RemoteUnit/RemoteUnit.cpp">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/RemoteUnit/RemoteUnit.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/RoboFramework.cpp">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/RoboFramework.h">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/main.cpp">
+			<Option target="RoboFramework_Total"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/../../../../STM32EasyLibrary/lib/cmake/stm32el/STM32EL-Config-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\STM32EasyLibrary\lib\cmake\stm32el\"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/../../../../STM32EasyLibrary/lib/cmake/stm32el/STM32EL-Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\STM32EasyLibrary\lib\cmake\stm32el\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
