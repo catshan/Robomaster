@@ -10,7 +10,7 @@
 #include "MotorNode.h"
 #include "M3508.h"
 
-#define CHASSIS_SPEED_MAX 10000
+#define CHASSIS_SPEED_MAX 8000
 #define CHASSIS_SPEED_BASE (660.0/CHASSIS_SPEED_MAX)
 #define CHASSIS_TOP_MAX 1000
 #define CAHSSIS_TOP_BASE (660.0/CHASSIS_TOP_MAX)
@@ -46,9 +46,6 @@ public:
     static void Init();
 
     static ChassisControlSignal* GetControlSignal();
-
-    static int GetRevolveSpeed();
-    static bool isRevolve();
 };
 
 class ChassisControlThread:public ThreadTask{

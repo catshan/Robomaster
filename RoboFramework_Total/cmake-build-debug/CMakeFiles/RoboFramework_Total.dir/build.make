@@ -108,22 +108,9 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ChassisControl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp.s"
 	D:\CLION2~1.1\82019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\RoboFramework_Total\RoboFramework\MotorControlUnit\ChassisControlUnit\ChassisControlUnit.cpp -o CMakeFiles\RoboFramework_Total.dir\RoboFramework\MotorControlUnit\ChassisControlUnit\ChassisControlUnit.cpp.s
 
-CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj: CMakeFiles/RoboFramework_Total.dir/flags.make
-CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj: ../RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj"
-	D:\CLION2~1.1\82019-~1\bin\AR10B2~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RoboFramework_Total.dir\RoboFramework\MotorControlUnit\HeadControlUnit\HeadControlUnit.cpp.obj -c C:\Users\Administrator\Desktop\RoboFramework_Total\RoboFramework\MotorControlUnit\HeadControlUnit\HeadControlUnit.cpp
-
-CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.i"
-	D:\CLION2~1.1\82019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\RoboFramework_Total\RoboFramework\MotorControlUnit\HeadControlUnit\HeadControlUnit.cpp > CMakeFiles\RoboFramework_Total.dir\RoboFramework\MotorControlUnit\HeadControlUnit\HeadControlUnit.cpp.i
-
-CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.s"
-	D:\CLION2~1.1\82019-~1\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\RoboFramework_Total\RoboFramework\MotorControlUnit\HeadControlUnit\HeadControlUnit.cpp -o CMakeFiles\RoboFramework_Total.dir\RoboFramework\MotorControlUnit\HeadControlUnit\HeadControlUnit.cpp.s
-
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.cpp.obj: CMakeFiles/RoboFramework_Total.dir/flags.make
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.cpp.obj: ../RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.cpp.obj"
 	D:\CLION2~1.1\82019-~1\bin\AR10B2~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RoboFramework_Total.dir\RoboFramework\MotorControlUnit\HeadControlUnit\MPU6500\MPU6500.cpp.obj -c C:\Users\Administrator\Desktop\RoboFramework_Total\RoboFramework\MotorControlUnit\HeadControlUnit\MPU6500\MPU6500.cpp
 
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.cpp.i: cmake_force
@@ -136,7 +123,7 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUni
 
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj: CMakeFiles/RoboFramework_Total.dir/flags.make
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj: ../RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj"
 	D:\CLION2~1.1\82019-~1\bin\AR10B2~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RoboFramework_Total.dir\RoboFramework\MotorControlUnit\ShootControlUnit\ShootControlUnit.cpp.obj -c C:\Users\Administrator\Desktop\RoboFramework_Total\RoboFramework\MotorControlUnit\ShootControlUnit\ShootControlUnit.cpp
 
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.i: cmake_force
@@ -149,7 +136,7 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUn
 
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/Node/CanNode/CanNode.cpp.obj: CMakeFiles/RoboFramework_Total.dir/flags.make
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/Node/CanNode/CanNode.cpp.obj: ../RoboFramework/Node/CanNode/CanNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RoboFramework_Total.dir/RoboFramework/Node/CanNode/CanNode.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RoboFramework_Total.dir/RoboFramework/Node/CanNode/CanNode.cpp.obj"
 	D:\CLION2~1.1\82019-~1\bin\AR10B2~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RoboFramework_Total.dir\RoboFramework\Node\CanNode\CanNode.cpp.obj -c C:\Users\Administrator\Desktop\RoboFramework_Total\RoboFramework\Node\CanNode\CanNode.cpp
 
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/Node/CanNode/CanNode.cpp.i: cmake_force
@@ -162,7 +149,7 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/Node/CanNode/CanNode.cpp.s: cma
 
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/RemoteUnit/RemoteUnit.cpp.obj: CMakeFiles/RoboFramework_Total.dir/flags.make
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/RemoteUnit/RemoteUnit.cpp.obj: ../RoboFramework/RemoteUnit/RemoteUnit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RoboFramework_Total.dir/RoboFramework/RemoteUnit/RemoteUnit.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RoboFramework_Total.dir/RoboFramework/RemoteUnit/RemoteUnit.cpp.obj"
 	D:\CLION2~1.1\82019-~1\bin\AR10B2~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RoboFramework_Total.dir\RoboFramework\RemoteUnit\RemoteUnit.cpp.obj -c C:\Users\Administrator\Desktop\RoboFramework_Total\RoboFramework\RemoteUnit\RemoteUnit.cpp
 
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/RemoteUnit/RemoteUnit.cpp.i: cmake_force
@@ -175,7 +162,7 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/RemoteUnit/RemoteUnit.cpp.s: cm
 
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/RoboFramework.cpp.obj: CMakeFiles/RoboFramework_Total.dir/flags.make
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/RoboFramework.cpp.obj: ../RoboFramework/RoboFramework.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RoboFramework_Total.dir/RoboFramework/RoboFramework.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RoboFramework_Total.dir/RoboFramework/RoboFramework.cpp.obj"
 	D:\CLION2~1.1\82019-~1\bin\AR10B2~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RoboFramework_Total.dir\RoboFramework\RoboFramework.cpp.obj -c C:\Users\Administrator\Desktop\RoboFramework_Total\RoboFramework\RoboFramework.cpp
 
 CMakeFiles/RoboFramework_Total.dir/RoboFramework/RoboFramework.cpp.i: cmake_force
@@ -188,7 +175,7 @@ CMakeFiles/RoboFramework_Total.dir/RoboFramework/RoboFramework.cpp.s: cmake_forc
 
 CMakeFiles/RoboFramework_Total.dir/main.cpp.obj: CMakeFiles/RoboFramework_Total.dir/flags.make
 CMakeFiles/RoboFramework_Total.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/RoboFramework_Total.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RoboFramework_Total.dir/main.cpp.obj"
 	D:\CLION2~1.1\82019-~1\bin\AR10B2~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\RoboFramework_Total.dir\main.cpp.obj -c C:\Users\Administrator\Desktop\RoboFramework_Total\main.cpp
 
 CMakeFiles/RoboFramework_Total.dir/main.cpp.i: cmake_force
@@ -205,7 +192,6 @@ RoboFramework_Total_OBJECTS = \
 "CMakeFiles/RoboFramework_Total.dir/RoboFramework/Math/KalmanFilter/Kalman.cpp.obj" \
 "CMakeFiles/RoboFramework_Total.dir/RoboFramework/Math/PID/PID.cpp.obj" \
 "CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp.obj" \
-"CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj" \
 "CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.cpp.obj" \
 "CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj" \
 "CMakeFiles/RoboFramework_Total.dir/RoboFramework/Node/CanNode/CanNode.cpp.obj" \
@@ -220,7 +206,6 @@ RoboFramework_Total: CMakeFiles/RoboFramework_Total.dir/RoboFramework/CanBusUnit
 RoboFramework_Total: CMakeFiles/RoboFramework_Total.dir/RoboFramework/Math/KalmanFilter/Kalman.cpp.obj
 RoboFramework_Total: CMakeFiles/RoboFramework_Total.dir/RoboFramework/Math/PID/PID.cpp.obj
 RoboFramework_Total: CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp.obj
-RoboFramework_Total: CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj
 RoboFramework_Total: CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.cpp.obj
 RoboFramework_Total: CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ShootControlUnit/ShootControlUnit.cpp.obj
 RoboFramework_Total: CMakeFiles/RoboFramework_Total.dir/RoboFramework/Node/CanNode/CanNode.cpp.obj
@@ -230,7 +215,7 @@ RoboFramework_Total: CMakeFiles/RoboFramework_Total.dir/main.cpp.obj
 RoboFramework_Total: CMakeFiles/RoboFramework_Total.dir/build.make
 RoboFramework_Total: C:\STM32EasyLibrary/lib/libSTM32EL.a
 RoboFramework_Total: CMakeFiles/RoboFramework_Total.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable RoboFramework_Total"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable RoboFramework_Total"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RoboFramework_Total.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

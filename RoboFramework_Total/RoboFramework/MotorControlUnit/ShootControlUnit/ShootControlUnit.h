@@ -25,11 +25,11 @@ public:
 class TaggleMotor:public MotorNode<M2006>{
 private:
     PID* pid = new PID(10000,1000,0,0,1.5,0.001,2);
-    PID* pid1 = new PID(1000,1000,0,0,8,0.01,1);
+//    PID* pid1 = new PID(1000,1000,0,0,8,0.01,1);
 public:
     using MotorNode::MotorNode;
     void run(float target) override;
-    void run_single(float target);
+//    void run_single(float target);
 };
 class ShootControlUnit{
 private:

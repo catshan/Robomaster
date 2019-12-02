@@ -230,33 +230,6 @@ RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp.s:
 	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp.s
 .PHONY : RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.cpp.s
 
-RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.obj: RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj
-
-.PHONY : RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.obj
-
-# target to build an object file
-RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj:
-	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj
-.PHONY : RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.obj
-
-RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.i: RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.i
-
-.PHONY : RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.i
-
-# target to preprocess a source file
-RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.i:
-	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.i
-.PHONY : RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.i
-
-RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.s: RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.s
-
-.PHONY : RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.s
-
-# target to generate assembly for a file
-RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.s:
-	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.s
-.PHONY : RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp.s
-
 RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.obj: RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.cpp.obj
 
 .PHONY : RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.obj
@@ -440,9 +413,6 @@ help:
 	@echo ... RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.obj
 	@echo ... RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.i
 	@echo ... RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.s
-	@echo ... RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.obj
-	@echo ... RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.i
-	@echo ... RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.s
 	@echo ... RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.obj
 	@echo ... RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.i
 	@echo ... RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.s

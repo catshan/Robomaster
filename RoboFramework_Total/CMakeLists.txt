@@ -22,4 +22,4 @@ include_directories(
         RoboFramework/Math/KalmanFilter
 )
 
-add_executable(RoboFramework_Total ${SOURCE} main.cpp )
+add_executable(RoboFramework_Total ${SOURCE} main.cpp)

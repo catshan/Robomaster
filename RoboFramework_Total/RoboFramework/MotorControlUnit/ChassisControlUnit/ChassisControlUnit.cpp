@@ -4,6 +4,7 @@
 
 #include "ChassisControlUnit.h"
 using namespace RoboFramework;
+
 void RoboFramework::ChassisMotor::run(float target) {
     pid->setTarget(target);
     short in = getMotor()->getSpeed();
@@ -32,7 +33,7 @@ void RoboFramework::ChassisControlUnit::Init() {
     signal.left_right_ch = 0;
     signal.rotate_ch = 0;
     for (int i = 0; i <4 ; i++) {
-        motor[i] = new ChassisMotor(i+1);
+        motor[i] = new ChassisMotor(i+1,CanType::Can1);
     }
     chassisThread = new Thread<ChassisControlThread>("Chassis",512);
     chassisThread->Login();
@@ -41,18 +42,13 @@ void RoboFramework::ChassisControlUnit::Init() {
 ChassisControlUnit::ChassisControlSignal *ChassisControlUnit::GetControlSignal() {
     return &signal;
 }
-auto speedStruct = *ChassisControlUnit::GetControlSignal();
-int ChassisControlUnit::GetRevolveSpeed() { return speedStruct.rotate_ch; }
 
-bool ChassisControlUnit::isRevolve() {
-    return speedStruct.rotate_ch != 0;
-}
 
 void RoboFramework::ChassisControlThread::start() {
-    short inVal[4];
+    short inVal[4] = {0};
     u8 index1 = 0,index2 = 3;
     for(float t = 0;;Delay::ms(3),t+=0.1){
-
+        auto speedStruct = *ChassisControlUnit::GetControlSignal();
         inVal[0] = -speedStruct.forward_back_ch + speedStruct.left_right_ch +
                    speedStruct.rotate_ch;
         inVal[1] = -speedStruct.forward_back_ch - speedStruct.left_right_ch +

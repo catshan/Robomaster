@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-buil
 CMakeFiles/RoboFramework_Total.dir/all:
 	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/depend
 	$(MAKE) -f CMakeFiles\RoboFramework_Total.dir\build.make CMakeFiles/RoboFramework_Total.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target RoboFramework_Total"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target RoboFramework_Total"
 .PHONY : CMakeFiles/RoboFramework_Total.dir/all
 
 # Include target in all.
@@ -80,7 +80,7 @@ all: CMakeFiles/RoboFramework_Total.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RoboFramework_Total.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles 11
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/RoboFramework_Total.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\RoboFramework_Total\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/RoboFramework_Total.dir/rule

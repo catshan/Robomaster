@@ -10,6 +10,7 @@
 #include "CanBusUnit.h"
 #include "CanNode.h"
 #include "MotorBase.h"
+
 namespace RoboFramework{
 template <class M>
 class MotorNode:public CanNode{
@@ -19,19 +20,19 @@ public:
     MotorBase *getMotor() const ;
 
 public:
-    MotorNode(u8 index);
+    MotorNode(u8 index,CanType canType);
     void sendData(short data);
     virtual void run(float target) = 0;
     void OnUpData() override ;
 };
 
-template<class M>MotorNode<M>::MotorNode(u8 index) {
+template<class M>MotorNode<M>::MotorNode(u8 index,CanType canType) {
     motor = (MotorBase*)new M;
     motor->deCodeIndex(index);
     sendID = motor->getTxId();
     listenID = motor->getRxId();
     sendIndexStart = motor->getSendDataIndex();
-    CanBusUnit::AddNode(CanType ::Can1,this);
+    CanBusUnit::AddNode(canType,this);
 }
 
 template<class M>void MotorNode<M>::sendData(short data) {

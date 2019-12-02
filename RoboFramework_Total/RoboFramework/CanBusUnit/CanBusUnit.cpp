@@ -57,26 +57,29 @@ void CanBusUnit::AddNode(CanType type, CanNode *node) {
 void CanBusThread::start() {
     for(;;Delay::ms(1)){
     //receive data on canbus1
-        u16 rxID = 0;
-        u8 rxBuffer[8] = {0};
+        u16 rxID_can1 = 0;
+        u16 rxID_can2 = 0;
+        u8 rxBuffer_can1[8] = {0};
+        u8 rxBuffer_can2[8] = {0};
         u16 size = CanBusUnit::getSendIdList()->size();
         if(!size){
             continue;
         }
-        rxID = CanBusUnit::getCanBus1()->receiveDate(rxBuffer);
+        rxID_can1 = CanBusUnit::getCanBus1()->receiveDate(rxBuffer_can1);
+        rxID_can2 = CanBusUnit::getCanBus2()->receiveDate(rxBuffer_can2);
         u8 txData[8] = {0};
 
         for(auto node:*CanBusUnit::getCan1NodeList()){
-            if(node->getListenId()==rxID){
-                memcpy((void*)node->getRxBuffer(),rxBuffer,8);
+            if(node->getListenId()==rxID_can1){
+                memcpy((void*)node->getRxBuffer(),rxBuffer_can1,8);
                 node->OnUpData();
                 break;
             }
         }
         //receive data on canbus2
         for(auto node:*CanBusUnit::getCan2NodeList()){
-            if(node->getListenId() == rxID){
-                memcpy((void*)node->getRxBuffer(),rxBuffer,8);
+            if(node->getListenId() == rxID_can2){
+                memcpy((void*)node->getRxBuffer(),rxBuffer_can2,8);
                 node->OnUpData();
                 break;
             }
@@ -86,9 +89,6 @@ void CanBusThread::start() {
             //send data on canbus1
             for(CanNode* node:*CanBusUnit::getCan1NodeList()){
                 if(node->getSendId() == id){
-                    if(id == 0x1FF){
-                        NOP();
-                    }
                     memcpy(txData + node->getSendIndexStart(),node->getTxBuffer(),2);
                 }
             }

@@ -144,12 +144,6 @@
 		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/ChassisControlUnit/ChassisControlUnit.h">
 			<Option target="RoboFramework_Total"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.cpp">
-			<Option target="RoboFramework_Total"/>
-		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/HeadControlUnit.h">
-			<Option target="RoboFramework_Total"/>
-		</Unit>
 		<Unit filename="C:/Users/Administrator/Desktop/RoboFramework_Total/RoboFramework/MotorControlUnit/HeadControlUnit/MPU6500/MPU6500.cpp">
 			<Option target="RoboFramework_Total"/>
 		</Unit>
